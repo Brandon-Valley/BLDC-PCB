@@ -1778,6 +1778,22 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <text x="-5.08" y="10.16" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="12.065" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="PHOENIX-MKDSN-6">
+<pad name="1" x="-12.7" y="0" drill="1.3" rot="R180"/>
+<pad name="2" x="-7.62" y="0" drill="1.3" rot="R180"/>
+<pad name="3" x="-2.54" y="0" drill="1.3" rot="R180"/>
+<pad name="4" x="2.54" y="0" drill="1.3" rot="R180"/>
+<pad name="5" x="7.62" y="0" drill="1.3" rot="R180"/>
+<wire x1="-15.24" y1="4.05" x2="15.24" y2="4.05" width="0.127" layer="21"/>
+<wire x1="15.24" y1="4.05" x2="15.24" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="-4.05" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-4.05" x2="-15.24" y2="-4.05" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-4.05" x2="-15.24" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="4.05" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-2.54" x2="15.24" y2="-2.54" width="0.127" layer="21"/>
+<text x="-1.27" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<pad name="6" x="12.7" y="0" drill="1.3" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -2052,6 +2068,19 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 </polygon>
 <text x="2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="J_1X6">
+<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="3" x="-2.54" y="0" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="5" x="-2.54" y="-5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="6" x="-2.54" y="-7.62" visible="pin" length="short" function="dot" swaplevel="1"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2792,6 +2821,28 @@ Some male, some female. Watch your step!</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PHOENIX-MKDSN-6" prefix="J">
+<gates>
+<gate name="G$1" symbol="J_1X6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PHOENIX-MKDSN-6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="1729160" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11006,6 +11057,9 @@ type 0309, grid 2.5 mm</description>
 <part name="R39" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
+<part name="J1" library="FormE" deviceset="PHOENIX-MKDSN-6" device="" value="1729160"/>
+<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11068,7 +11122,6 @@ Filters</text>
 <wire x1="-238.76" y1="-127" x2="-269.24" y2="-127" width="0.6096" layer="97"/>
 <wire x1="-269.24" y1="-127" x2="-269.24" y2="0" width="0.6096" layer="97"/>
 <text x="-264.16" y="-7.62" size="1.778" layer="97">look into filters</text>
-<text x="-243.84" y="81.28" size="2.54" layer="97">debugger????</text>
 <text x="-20.32" y="165.1" size="1.778" layer="97">ONLY CONNECT SIGNAL AND
 PWR GND IN ONE PLACE???  Why?</text>
 <text x="-45.72" y="129.54" size="6.4516" layer="97">STM32</text>
@@ -11093,6 +11146,12 @@ V at each phase</text>
 <wire x1="520.7" y1="48.26" x2="520.7" y2="-25.4" width="0.6096" layer="97"/>
 <wire x1="520.7" y1="-25.4" x2="391.16" y2="-25.4" width="0.6096" layer="97"/>
 <wire x1="391.16" y1="-25.4" x2="391.16" y2="48.26" width="0.6096" layer="97"/>
+<text x="-322.58" y="73.66" size="1.778" layer="97">stlinkv2 
+debugger
+connetion</text>
+<text x="-447.04" y="198.12" size="2.1844" layer="97">Extra stuff not on digikey:</text>
+<text x="-447.04" y="193.04" size="1.778" layer="97">debugger</text>
+<text x="-447.04" y="190.5" size="1.778" layer="97">wires to connect to debugger?</text>
 </plain>
 <instances>
 <instance part="GND64" gate="1" x="-508" y="73.66"/>
@@ -11435,6 +11494,9 @@ V at each phase</text>
 <instance part="R39" gate="G$1" x="487.68" y="0">
 <attribute name="PARTNO" x="487.68" y="0" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
+<instance part="J1" gate="G$1" x="-309.88" y="60.96" rot="R180"/>
+<instance part="+3V7" gate="G$1" x="-302.26" y="78.74"/>
+<instance part="GND26" gate="1" x="-302.26" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -11731,6 +11793,12 @@ V at each phase</text>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="269.24" y1="83.82" x2="269.24" y2="86.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="-307.34" y1="58.42" x2="-302.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-302.26" y1="58.42" x2="-302.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -11888,6 +11956,12 @@ V at each phase</text>
 <wire x1="157.48" y1="40.64" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <junction x="157.48" y="40.64"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="-307.34" y1="68.58" x2="-302.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-302.26" y1="68.58" x2="-302.26" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12520,12 +12594,22 @@ V at each phase</text>
 <wire x1="-55.88" y1="60.96" x2="-63.5" y2="60.96" width="0.1524" layer="91"/>
 <label x="-63.5" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="-307.34" y1="66.04" x2="-294.64" y2="66.04" width="0.1524" layer="91"/>
+<label x="-302.26" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PA13"/>
 <wire x1="-55.88" y1="58.42" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
 <label x="-63.5" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="-307.34" y1="63.5" x2="-294.64" y2="63.5" width="0.1524" layer="91"/>
+<label x="-302.26" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -12537,6 +12621,11 @@ V at each phase</text>
 <wire x1="-58.42" y1="55.88" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="53.34" x2="-58.42" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-58.42" y="55.88"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-307.34" y1="60.96" x2="-294.64" y2="60.96" width="0.1524" layer="91"/>
+<label x="-302.26" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
