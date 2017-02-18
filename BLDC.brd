@@ -3091,6 +3091,14 @@ design rules under a new name.</description>
 <wire x1="-59.96" y1="72.39" x2="-78.74" y2="2.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.59" y1="85.09" x2="-59.96" y2="72.39" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="L_GND">
+</signal>
+<signal name="DGND">
+<contactref element="JP1" pad="P$8" route="any" routetag="G$1.SHIELD"/>
+<contactref element="JP1" pad="P$6" route="any" routetag="G$1.SHIELD"/>
+<contactref element="JP1" pad="P$9" route="any" routetag="G$1.SHIELD"/>
+<contactref element="JP1" pad="P$7" route="any" routetag="G$1.SHIELD"/>
+</signal>
 </signals>
 </board>
 </drawing>
