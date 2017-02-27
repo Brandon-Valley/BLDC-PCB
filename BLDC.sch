@@ -3123,6 +3123,12 @@ Some male, some female. Watch your step!</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="AGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -3168,6 +3174,19 @@ Some male, some female. Watch your step!</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="AGND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -10941,6 +10960,41 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DGND" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11163,7 +11217,6 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="rcl" deviceset="C-US" device="C0805" value="10uf, 50V">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
@@ -11363,6 +11416,11 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
+<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11397,7 +11455,6 @@ What up with the doubles?</text>
 <wire x1="-149.86" y1="30.48" x2="-149.86" y2="10.16" width="0.6096" layer="97"/>
 <text x="-231.14" y="43.18" size="1.778" layer="97">INPUTS</text>
 <text x="-375.92" y="149.86" size="1.778" layer="97">USB shield?</text>
-<text x="-170.18" y="53.34" size="2.54" layer="97">USB shield?</text>
 <text x="-127" y="60.96" size="1.778" layer="97">Mount if used 
 as USB Host</text>
 <text x="-177.8" y="111.76" size="1.778" layer="97">Look at these values 
@@ -11455,6 +11512,10 @@ connetion</text>
 <wire x1="43.18" y1="-144.78" x2="43.18" y2="-241.3" width="0.6096" layer="97"/>
 <wire x1="43.18" y1="-241.3" x2="-106.68" y2="-241.3" width="0.6096" layer="97"/>
 <wire x1="-106.68" y1="-241.3" x2="-106.68" y2="-144.78" width="0.6096" layer="97"/>
+<text x="-177.8" y="45.72" size="1.778" layer="97">Connect shield
+GND to signal
+GNN in one 
+place only</text>
 </plain>
 <instances>
 <instance part="GND64" gate="1" x="-508" y="73.66"/>
@@ -11663,7 +11724,6 @@ connetion</text>
 </instance>
 <instance part="P+4" gate="VCC" x="-215.9" y="27.94" rot="R270"/>
 <instance part="P+5" gate="VCC" x="223.52" y="76.2"/>
-<instance part="GND17" gate="1" x="-215.9" y="25.4" rot="MR270"/>
 <instance part="C27" gate="G$1" x="236.22" y="66.04" rot="MR0">
 <attribute name="PARTNO" x="236.22" y="66.04" size="6.4516" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -11863,6 +11923,11 @@ connetion</text>
 </instance>
 <instance part="GND36" gate="1" x="35.56" y="-190.5"/>
 <instance part="P+12" gate="1" x="35.56" y="-160.02"/>
+<instance part="AGND1" gate="VR1" x="-157.48" y="43.18"/>
+<instance part="AGND2" gate="VR1" x="-193.04" y="33.02"/>
+<instance part="GND17" gate="1" x="-185.42" y="33.02"/>
+<instance part="SUPPLY1" gate="G$1" x="-203.2" y="33.02"/>
+<instance part="SUPPLY2" gate="G$1" x="-215.9" y="25.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11998,11 +12063,6 @@ connetion</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="-76.2" y1="83.82" x2="-76.2" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-76.2" y="81.28"/>
-</segment>
-<segment>
-<wire x1="-233.68" y1="25.4" x2="-218.44" y2="25.4" width="0.1524" layer="91"/>
-<label x="-233.68" y="25.4" size="1.778" layer="95"/>
-<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -12682,8 +12742,8 @@ connetion</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="45.72" x2="-104.14" y2="45.72" width="0.1524" layer="91"/>
-<label x="-114.3" y="45.72" size="1.778" layer="95"/>
+<wire x1="-116.84" y1="45.72" x2="-114.3" y2="45.72" width="0.1524" layer="91"/>
+<label x="-114.3" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
@@ -12694,8 +12754,8 @@ connetion</text>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="53.34" x2="-104.14" y2="53.34" width="0.1524" layer="91"/>
-<label x="-114.3" y="53.34" size="1.778" layer="95"/>
+<wire x1="-116.84" y1="53.34" x2="-114.3" y2="53.34" width="0.1524" layer="91"/>
+<label x="-114.3" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -13855,6 +13915,32 @@ connetion</text>
 <pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="-175.26" x2="35.56" y2="-172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="SHIELD"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<wire x1="-152.4" y1="50.8" x2="-157.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="50.8" x2="-157.48" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DGND" class="0">
+<segment>
+<wire x1="-203.2" y1="35.56" x2="-203.2" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="-203.2" y1="38.1" x2="-193.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-193.04" y1="38.1" x2="-185.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="38.1" x2="-185.42" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+<wire x1="-193.04" y1="35.56" x2="-193.04" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-193.04" y="38.1"/>
+<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<wire x1="-233.68" y1="25.4" x2="-218.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="-233.68" y="25.4" size="1.778" layer="95"/>
+<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
 </segment>
 </net>
 </nets>
