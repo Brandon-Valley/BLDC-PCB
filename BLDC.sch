@@ -11421,6 +11421,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
+<part name="GND37" library="supply1" deviceset="GND" device=""/>
+<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11447,12 +11449,6 @@ TEMP_MOTOR
 SERVO
 Halls?</text>
 <text x="-261.62" y="203.2" size="6.4516" layer="97">BLDC-PCB</text>
-<text x="-144.78" y="22.86" size="1.778" layer="97">WTF is this for?
-What up with the doubles?</text>
-<wire x1="-149.86" y1="10.16" x2="-104.14" y2="10.16" width="0.6096" layer="97"/>
-<wire x1="-104.14" y1="10.16" x2="-104.14" y2="30.48" width="0.6096" layer="97"/>
-<wire x1="-104.14" y1="30.48" x2="-149.86" y2="30.48" width="0.6096" layer="97"/>
-<wire x1="-149.86" y1="30.48" x2="-149.86" y2="10.16" width="0.6096" layer="97"/>
 <text x="-231.14" y="43.18" size="1.778" layer="97">INPUTS</text>
 <text x="-375.92" y="149.86" size="1.778" layer="97">USB shield?</text>
 <text x="-127" y="60.96" size="1.778" layer="97">Mount if used 
@@ -11928,6 +11924,8 @@ place only</text>
 <instance part="GND17" gate="1" x="-185.42" y="33.02"/>
 <instance part="SUPPLY1" gate="G$1" x="-203.2" y="33.02"/>
 <instance part="SUPPLY2" gate="G$1" x="-215.9" y="25.4" rot="R90"/>
+<instance part="GND37" gate="1" x="-246.38" y="53.34" rot="R90"/>
+<instance part="P+13" gate="1" x="-246.38" y="55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -12319,6 +12317,10 @@ place only</text>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-187.96" x2="35.56" y2="-185.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-269.24" y1="53.34" x2="-248.92" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -12393,6 +12395,10 @@ place only</text>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="-165.1" x2="35.56" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<wire x1="-269.24" y1="55.88" x2="-248.92" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12661,8 +12667,8 @@ place only</text>
 <label x="-76.2" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-119.38" y1="20.32" x2="-139.7" y2="20.32" width="0.1524" layer="91"/>
-<label x="-137.16" y="20.32" size="1.778" layer="95"/>
+<wire x1="-251.46" y1="50.8" x2="-271.78" y2="50.8" width="0.1524" layer="91"/>
+<label x="-269.24" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK_ADC_EXT" class="0">
@@ -12672,8 +12678,8 @@ place only</text>
 <label x="-76.2" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-119.38" y1="15.24" x2="-139.7" y2="15.24" width="0.1524" layer="91"/>
-<label x="-137.16" y="15.24" size="1.778" layer="95"/>
+<wire x1="-251.46" y1="45.72" x2="-271.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="-269.24" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX_SDA_NSS" class="0">
@@ -12693,8 +12699,8 @@ place only</text>
 <label x="-2.54" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-119.38" y1="17.78" x2="-139.7" y2="17.78" width="0.1524" layer="91"/>
-<label x="-137.16" y="17.78" size="1.778" layer="95"/>
+<wire x1="-251.46" y1="48.26" x2="-271.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="-269.24" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO_ADC_EXT2" class="0">
@@ -12704,8 +12710,8 @@ place only</text>
 <label x="-76.2" y="-15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-119.38" y1="12.7" x2="-139.7" y2="12.7" width="0.1524" layer="91"/>
-<label x="-139.7" y="12.7" size="1.778" layer="95"/>
+<wire x1="-251.46" y1="43.18" x2="-271.78" y2="43.18" width="0.1524" layer="91"/>
+<label x="-271.78" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
