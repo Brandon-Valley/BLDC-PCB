@@ -1778,33 +1778,6 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <text x="-5.08" y="10.16" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="12.065" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="PHOENIX-MKDSN-5">
-<pad name="1" x="-10.16" y="0" drill="1.3" rot="R180"/>
-<pad name="2" x="-5.08" y="0" drill="1.3" rot="R180"/>
-<pad name="3" x="0" y="0" drill="1.3" rot="R180"/>
-<pad name="4" x="5.08" y="0" drill="1.3" rot="R180"/>
-<pad name="5" x="10.16" y="0" drill="1.3" rot="R180"/>
-<wire x1="-12.7" y1="4.05" x2="12.7" y2="4.05" width="0.127" layer="21"/>
-<wire x1="12.7" y1="4.05" x2="12.7" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-2.54" x2="12.7" y2="-4.05" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-4.05" x2="-12.7" y2="-4.05" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-4.05" x2="-12.7" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="4.05" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-2.54" x2="12.7" y2="-2.54" width="0.127" layer="21"/>
-<text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-</package>
-<package name="PHOENIX-MKDSN-2">
-<pad name="1" x="-2.54" y="0" drill="1.3" rot="R180"/>
-<pad name="2" x="2.54" y="0" drill="1.3" rot="R180"/>
-<wire x1="-5.08" y1="4.05" x2="5.08" y2="4.05" width="0.127" layer="21"/>
-<wire x1="5.08" y1="4.05" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-4.05" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-4.05" x2="-5.08" y2="-4.05" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-4.05" x2="-5.08" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="4.05" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="2726">
 <smd name="BR" x="2.48" y="-3.3" dx="6.6" dy="2.44" layer="1" rot="R90"/>
 <smd name="TR" x="2.48" y="1.835" dx="1.89" dy="2.44" layer="1" rot="R90"/>
@@ -2138,28 +2111,6 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 </polygon>
 <text x="2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="J_1X5">
-<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
-<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
-<pin name="3" x="-2.54" y="0" visible="pin" length="short" function="dot" swaplevel="1"/>
-<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="5" x="-2.54" y="-5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
-</symbol>
-<symbol name="J_1X2">
-<pin name="1" x="-7.62" y="2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
-<pin name="2" x="-7.62" y="0" visible="pin" length="short" function="dot" swaplevel="1"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="R-US-4">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
@@ -2963,45 +2914,6 @@ Some male, some female. Watch your step!</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PHOENIX-MKDSN-5" prefix="J">
-<gates>
-<gate name="G$1" symbol="J_1X5" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PHOENIX-MKDSN-5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="1729157" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PHOENIX-MKDSN-2" prefix="J">
-<gates>
-<gate name="G$1" symbol="J_1X2" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="PHOENIX-MKDSN-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="1729128" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -11352,8 +11264,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="FormE" deviceset="PHOENIX-MKDSN-5" device="" value="1729157"/>
-<part name="J3" library="FormE" deviceset="PHOENIX-MKDSN-2" device="" value="1729128"/>
 <part name="R40" library="FormE" deviceset="WSLP27261L000FEA" device="" value=".001R"/>
 <part name="U3" library="FormE" deviceset="LT3433" device=""/>
 <part name="R41" library="FormE" deviceset="WSLP27261L000FEA" device="" value=".001R"/>
@@ -11423,6 +11333,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
+<part name="P+15" library="supply1" deviceset="+5V" device=""/>
+<part name="GND42" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11513,6 +11425,7 @@ GND to signal
 GNN in one 
 place only</text>
 <text x="-58.42" y="-187.96" size="6.4516" layer="97">NEED??????</text>
+<text x="-93.98" y="180.34" size="6.4516" layer="97">NEED TO DECIDE HOW MANY AUX!!!!!!!!!!!!!!</text>
 </plain>
 <instances>
 <instance part="GND64" gate="1" x="-508" y="73.66"/>
@@ -11856,8 +11769,6 @@ place only</text>
 </instance>
 <instance part="+3V7" gate="G$1" x="-302.26" y="78.74"/>
 <instance part="GND26" gate="1" x="-302.26" y="48.26"/>
-<instance part="J2" gate="G$1" x="-309.88" y="63.5" rot="R180"/>
-<instance part="J3" gate="G$1" x="-297.18" y="27.94" rot="R180"/>
 <instance part="R40" gate="G$1" x="320.04" y="17.78" rot="R90"/>
 <instance part="U3" gate="G$1" x="-38.1" y="-177.8"/>
 <instance part="R41" gate="G$1" x="330.2" y="2.54" rot="R90"/>
@@ -11927,6 +11838,8 @@ place only</text>
 <instance part="SUPPLY2" gate="G$1" x="-215.9" y="25.4" rot="R90"/>
 <instance part="GND37" gate="1" x="-246.38" y="53.34" rot="R90"/>
 <instance part="P+13" gate="1" x="-246.38" y="55.88" rot="R270"/>
+<instance part="P+15" gate="1" x="-266.7" y="30.48" rot="R270"/>
+<instance part="GND42" gate="1" x="-266.7" y="22.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12226,7 +12139,6 @@ place only</text>
 <segment>
 <wire x1="-302.26" y1="58.42" x2="-302.26" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="-302.26" y1="58.42" x2="-307.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12322,6 +12234,10 @@ place only</text>
 <wire x1="-269.24" y1="53.34" x2="-248.92" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="-289.56" y1="22.86" x2="-269.24" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -12400,6 +12316,10 @@ place only</text>
 <segment>
 <wire x1="-269.24" y1="55.88" x2="-248.92" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<wire x1="-289.56" y1="30.48" x2="-269.24" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="P+15" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12518,7 +12438,6 @@ place only</text>
 <segment>
 <wire x1="-302.26" y1="68.58" x2="-302.26" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="-302.26" y1="68.58" x2="-307.34" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12562,7 +12481,6 @@ place only</text>
 <label x="-579.12" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="-289.56" y1="27.94" x2="-269.24" y2="27.94" width="0.1524" layer="91"/>
 <label x="-284.48" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -12580,7 +12498,6 @@ place only</text>
 <label x="-579.12" y="-35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="-289.56" y1="25.4" x2="-269.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="-284.48" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -13156,7 +13073,6 @@ place only</text>
 </segment>
 <segment>
 <label x="-302.26" y="66.04" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="-294.64" y1="66.04" x2="-307.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13168,7 +13084,6 @@ place only</text>
 </segment>
 <segment>
 <label x="-302.26" y="63.5" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="-294.64" y1="63.5" x2="-307.34" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13184,7 +13099,6 @@ place only</text>
 </segment>
 <segment>
 <label x="-302.26" y="60.96" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="-294.64" y1="60.96" x2="-307.34" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13948,6 +13862,42 @@ place only</text>
 <wire x1="-233.68" y1="25.4" x2="-218.44" y2="25.4" width="0.1524" layer="91"/>
 <label x="-233.68" y="25.4" size="1.778" layer="95"/>
 <pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
+</segment>
+</net>
+<net name="AUX_1" class="0">
+<segment>
+<wire x1="-264.16" y1="73.66" x2="-243.84" y2="73.66" width="0.1524" layer="91"/>
+<label x="-264.16" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX_2" class="0">
+<segment>
+<wire x1="-264.16" y1="71.12" x2="-243.84" y2="71.12" width="0.1524" layer="91"/>
+<label x="-264.16" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX_3" class="0">
+<segment>
+<wire x1="-264.16" y1="68.58" x2="-243.84" y2="68.58" width="0.1524" layer="91"/>
+<label x="-264.16" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX_4" class="0">
+<segment>
+<wire x1="-264.16" y1="66.04" x2="-243.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="-264.16" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX_5" class="0">
+<segment>
+<wire x1="-264.16" y1="63.5" x2="-243.84" y2="63.5" width="0.1524" layer="91"/>
+<label x="-264.16" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX_6" class="0">
+<segment>
+<wire x1="-264.16" y1="60.96" x2="-243.84" y2="60.96" width="0.1524" layer="91"/>
+<label x="-264.16" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
