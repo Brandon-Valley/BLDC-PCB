@@ -11512,6 +11512,7 @@ connetion</text>
 GND to signal
 GNN in one 
 place only</text>
+<text x="-58.42" y="-187.96" size="6.4516" layer="97">NEED??????</text>
 </plain>
 <instances>
 <instance part="GND64" gate="1" x="-508" y="73.66"/>
