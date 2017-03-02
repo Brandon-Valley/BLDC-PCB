@@ -1838,6 +1838,53 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <wire x1="-0.8" y1="0.7" x2="0.8" y2="0.7" width="0.127" layer="21"/>
 <text x="1.27" y="1.27" size="1.27" layer="25" rot="R270">&gt;NAME</text>
 </package>
+<package name="J_1X4">
+<pad name="P$1" x="0" y="0" drill="1"/>
+<pad name="P$2" x="2.54" y="0" drill="1"/>
+<pad name="P$3" x="5.08" y="0" drill="1"/>
+<pad name="P$4" x="7.62" y="0" drill="1"/>
+<text x="0" y="1.27" size="1.27" layer="21" ratio="10">&gt;NAME</text>
+</package>
+<package name="J_1X6">
+<pad name="P$1" x="0" y="0" drill="1"/>
+<pad name="P$2" x="2.54" y="0" drill="1"/>
+<pad name="P$3" x="5.08" y="0" drill="1"/>
+<pad name="P$4" x="7.62" y="0" drill="1"/>
+<pad name="P$5" x="10.16" y="0" drill="1"/>
+<pad name="P$6" x="12.7" y="0" drill="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="21" ratio="10">&gt;NAME</text>
+</package>
+<package name="J_1X7">
+<pad name="P$1" x="0" y="0" drill="1"/>
+<pad name="P$2" x="2.54" y="0" drill="1"/>
+<pad name="P$3" x="5.08" y="0" drill="1"/>
+<pad name="P$4" x="7.62" y="0" drill="1"/>
+<pad name="P$5" x="10.16" y="0" drill="1"/>
+<pad name="P$6" x="12.7" y="0" drill="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="21" ratio="10">&gt;NAME</text>
+<pad name="P$7" x="15.24" y="0" drill="1"/>
+</package>
+<package name="1206-DIODE">
+<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.4064" layer="51"/>
+<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.1016" layer="21" curve="95.452622" cap="flat"/>
+<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1016" layer="51" curve="-84.547378" cap="flat"/>
+<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1016" layer="21" curve="-95.452622" cap="flat"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1016" layer="51" curve="-84.547378" cap="flat"/>
+<smd name="C" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="A" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
+<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
+<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -2174,6 +2221,61 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="J_1X4">
+<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="3" x="-2.54" y="0" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="J_1X6">
+<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="3" x="-2.54" y="0" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="5" x="-2.54" y="-5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="6" x="-2.54" y="-7.62" visible="pin" length="short" function="dot" swaplevel="1"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="J_1X7">
+<pin name="1" x="-2.54" y="7.62" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="2" x="-2.54" y="5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="3" x="-2.54" y="2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="4" x="-2.54" y="0" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="5" x="-2.54" y="-2.54" visible="pin" length="short" function="dot" swaplevel="1"/>
+<pin name="6" x="-2.54" y="-5.08" visible="pin" length="short" function="dot" swaplevel="1"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<pin name="7" x="-2.54" y="-7.62" visible="pin" length="short" function="dot" swaplevel="1"/>
+<text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SCHOTTKY">
+<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="2.54" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2992,6 +3094,82 @@ Some male, some female. Watch your step!</description>
 <connects>
 <connect gate="G$1" pin="ANODE" pad="A"/>
 <connect gate="G$1" pin="CATHODE" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="J_1X4" prefix="J">
+<gates>
+<gate name="G$1" symbol="J_1X4" x="-7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="J_1X4">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="J_1X6" prefix="J">
+<gates>
+<gate name="G$1" symbol="J_1X6" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="J_1X6">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="J_1X7" prefix="J">
+<gates>
+<gate name="G$1" symbol="J_1X7" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="J_1X7">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CD1206-B260" prefix="D">
+<description>60V 2A Schottky Diode</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11353,6 +11531,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
+<part name="J1" library="FormE" deviceset="J_1X4" device=""/>
+<part name="J2" library="FormE" deviceset="J_1X6" device=""/>
+<part name="J3" library="FormE" deviceset="J_1X7" device=""/>
+<part name="D3" library="FormE" deviceset="CD1206-B260" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11872,6 +12054,10 @@ place only</text>
 <instance part="GND44" gate="1" x="-20.32" y="-101.6"/>
 <instance part="P+16" gate="1" x="-246.38" y="66.04" rot="R270"/>
 <instance part="GND45" gate="1" x="-246.38" y="53.34" rot="R90"/>
+<instance part="J1" gate="G$1" x="-337.82" y="48.26"/>
+<instance part="J2" gate="G$1" x="-337.82" y="25.4"/>
+<instance part="J3" gate="G$1" x="-332.74" y="-7.62"/>
+<instance part="D3" gate="G$1" x="251.46" y="40.64"/>
 </instances>
 <busses>
 </busses>
