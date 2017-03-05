@@ -3286,6 +3286,23 @@ Some male, some female. Watch your step!</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="5988110107F" prefix="LED">
+<description>Red LED</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHIP-LED0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -11285,9 +11302,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="FormE" deviceset="LED" device="CHIP-LED0805" value="RED">
-<attribute name="PARTNO" value="598-8170-107F"/>
-</part>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
@@ -11323,7 +11337,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="39K">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
@@ -11333,10 +11347,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11344,10 +11358,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11355,10 +11369,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11369,30 +11383,32 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="FormE" deviceset="DRV8302" device=""/>
+<part name="U3" library="FormE" deviceset="DRV8302" device="">
+<attribute name="PARTNO" value="DRV8302DCA"/>
+</part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="220K">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2203V"/>
 </part>
 <part name="C29" library="rcl" deviceset="C-US" device="C0805" value="120pf">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="15K">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1502V"/>
 </part>
 <part name="C28" library="rcl" deviceset="C-US" device="C0805" value="6.8n">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="18K">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2402V"/>
 </part>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="3K3">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3301V"/>
 </part>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="R26" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="C22" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11432,7 +11448,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="220K">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2203V"/>
 </part>
 <part name="C35" library="rcl" deviceset="C-US" device="C0805" value="220n">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11444,16 +11460,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="100R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1000V"/>
 </part>
 <part name="R31" library="adafruit" deviceset="R-US_" device="R0805" value="100R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1000V"/>
 </part>
 <part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="100R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1000V"/>
 </part>
 <part name="R33" library="adafruit" deviceset="R-US_" device="R0805" value="100R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1000V"/>
 </part>
 <part name="C43" library="rcl" deviceset="C-US" device="C0805" value="2.2n">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11482,24 +11498,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -11515,39 +11531,51 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="FormE" deviceset="IRFS7530TRLPBF" device="" value=""/>
+<part name="Q1" library="FormE" deviceset="IRFS7530TRLPBF" device="" value="">
+<attribute name="PARTNO" value="IRFS7530TRLPBF"/>
+</part>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="R39" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R38" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6RQF4R7V"/>
 </part>
-<part name="Q3" library="FormE" deviceset="IRFS7530TRLPBF" device="" value=""/>
+<part name="Q3" library="FormE" deviceset="IRFS7530TRLPBF" device="" value="">
+<attribute name="PARTNO" value="IRFS7530TRLPBF"/>
+</part>
 <part name="R41" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6RQF4R7V"/>
 </part>
-<part name="Q5" library="FormE" deviceset="IRFS7530TRLPBF" device="" value=""/>
+<part name="Q5" library="FormE" deviceset="IRFS7530TRLPBF" device="" value="">
+<attribute name="PARTNO" value="IRFS7530TRLPBF"/>
+</part>
 <part name="R44" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6RQF4R7V"/>
 </part>
-<part name="Q2" library="FormE" deviceset="IRFS7530TRLPBF" device="" value=""/>
+<part name="Q2" library="FormE" deviceset="IRFS7530TRLPBF" device="" value="">
+<attribute name="PARTNO" value="IRFS7530TRLPBF"/>
+</part>
 <part name="R37" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6RQF4R7V"/>
 </part>
 <part name="R42" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
-<part name="Q4" library="FormE" deviceset="IRFS7530TRLPBF" device="" value=""/>
+<part name="Q4" library="FormE" deviceset="IRFS7530TRLPBF" device="" value="">
+<attribute name="PARTNO" value="IRFS7530TRLPBF"/>
+</part>
 <part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6RQF4R7V"/>
 </part>
 <part name="R45" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
-<part name="Q6" library="FormE" deviceset="IRFS7530TRLPBF" device="" value=""/>
+<part name="Q6" library="FormE" deviceset="IRFS7530TRLPBF" device="" value="">
+<attribute name="PARTNO" value="IRFS7530TRLPBF"/>
+</part>
 <part name="R43" library="adafruit" deviceset="R-US_" device="R0805" value="4.7R">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6RQF4R7V"/>
 </part>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -11566,8 +11594,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="10K">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
+<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="C6" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11576,7 +11604,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V310" library="supply1" deviceset="+3V3" device=""/>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="10K">
-<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
+<attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11587,16 +11615,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J3" library="FormE" deviceset="J_1X4" device="" value=""/>
 <part name="J5" library="FormE" deviceset="J_1X6" device="" value=""/>
 <part name="J4" library="FormE" deviceset="J_1X7" device="" value=""/>
-<part name="D2" library="FormE" deviceset="CD1206-B260" device="" value=""/>
+<part name="D2" library="FormE" deviceset="CD1206-B260" device="" value="">
+<attribute name="PARTNO" value="CD1206-B260"/>
+</part>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="J6" library="FormE" deviceset="J_1X2" device=""/>
 <part name="J7" library="FormE" deviceset="J_1X2" device=""/>
 <part name="J8" library="FormE" deviceset="J_1X2" device=""/>
 <part name="J2" library="FormE" deviceset="1-770178-0" device=""/>
 <part name="J1" library="FormE" deviceset="1-770174-1" device=""/>
-<part name="C1" library="FormE" deviceset="UVR1J222MHD" device="" value="2200uF"/>
-<part name="R16" library="FormE" deviceset="NCP18XH103F03RB" device="" value="10K"/>
+<part name="C1" library="FormE" deviceset="UVR1J222MHD" device="" value="2200uF">
+<attribute name="PARTNO" value="UVR1J222MHD"/>
+</part>
+<part name="R16" library="FormE" deviceset="NCP18XH103F03RB" device="" value="10K">
+<attribute name="PARTNO" value="NCP18XH103F03RB"/>
+</part>
 <part name="D1" library="FormE" deviceset="PLVA650A" device="" value="5V"/>
+<part name="LED2" library="FormE" deviceset="5988110107F" device="" value="RED"/>
 </parts>
 <sheets>
 <sheet>
@@ -11675,6 +11710,7 @@ place only</text>
 <text x="-30.48" y="-66.04" size="1.778" layer="97">brd temp</text>
 <text x="347.98" y="-40.64" size="6.4516" layer="97">Need output connect</text>
 <text x="-218.44" y="-30.48" size="1.778" layer="97" rot="R90">60V - 0V V_Batt</text>
+<text x="-447.04" y="185.42" size="1.778" layer="97">r35,36</text>
 </plain>
 <instances>
 <instance part="GND33" gate="1" x="198.12" y="-91.44"/>
@@ -11752,9 +11788,6 @@ place only</text>
 <instance part="P+6" gate="1" x="-119.38" y="-129.54" rot="MR0"/>
 <instance part="+3V37" gate="G$1" x="-154.94" y="-129.54" rot="MR0"/>
 <instance part="GND6" gate="1" x="-165.1" y="-160.02" rot="MR0"/>
-<instance part="LED2" gate="G$1" x="-73.66" y="-73.66">
-<attribute name="PARTNO" x="-73.66" y="-73.66" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R15" gate="G$1" x="-73.66" y="-86.36" rot="R90">
 <attribute name="PARTNO" x="-73.66" y="-86.36" size="1.778" layer="96" display="off"/>
 </instance>
@@ -11836,7 +11869,9 @@ place only</text>
 <attribute name="PARTNO" x="-58.42" y="50.8" size="6.4516" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="-58.42" y="43.18"/>
-<instance part="U3" gate="G$1" x="172.72" y="22.86"/>
+<instance part="U3" gate="G$1" x="172.72" y="22.86">
+<attribute name="PARTNO" x="172.72" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="172.72" y="-27.94" rot="MR0"/>
 <instance part="R27" gate="G$1" x="157.48" y="71.12">
 <attribute name="PARTNO" x="157.48" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
@@ -11982,7 +12017,9 @@ place only</text>
 </instance>
 <instance part="P+12" gate="VCC" x="251.46" y="99.06"/>
 <instance part="GND36" gate="1" x="251.46" y="78.74" rot="MR0"/>
-<instance part="Q1" gate="G$1" x="363.22" y="33.02"/>
+<instance part="Q1" gate="G$1" x="363.22" y="33.02">
+<attribute name="PARTNO" x="363.22" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+14" gate="VCC" x="401.32" y="48.26"/>
 <instance part="R39" gate="G$1" x="355.6" y="7.62" rot="R270">
 <attribute name="PARTNO" x="355.6" y="7.62" size="1.778" layer="96" rot="R180" display="off"/>
@@ -11990,29 +12027,39 @@ place only</text>
 <instance part="R38" gate="G$1" x="350.52" y="33.02">
 <attribute name="PARTNO" x="350.52" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="Q3" gate="G$1" x="401.32" y="33.02"/>
+<instance part="Q3" gate="G$1" x="401.32" y="33.02">
+<attribute name="PARTNO" x="401.32" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R41" gate="G$1" x="388.62" y="33.02">
 <attribute name="PARTNO" x="388.62" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="Q5" gate="G$1" x="439.42" y="33.02"/>
+<instance part="Q5" gate="G$1" x="439.42" y="33.02">
+<attribute name="PARTNO" x="439.42" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R44" gate="G$1" x="426.72" y="33.02">
 <attribute name="PARTNO" x="426.72" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="Q2" gate="G$1" x="363.22" y="15.24"/>
+<instance part="Q2" gate="G$1" x="363.22" y="15.24">
+<attribute name="PARTNO" x="363.22" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R37" gate="G$1" x="347.98" y="15.24">
 <attribute name="PARTNO" x="347.98" y="15.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R42" gate="G$1" x="391.16" y="0">
 <attribute name="PARTNO" x="391.16" y="0" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="Q4" gate="G$1" x="401.32" y="15.24"/>
+<instance part="Q4" gate="G$1" x="401.32" y="15.24">
+<attribute name="PARTNO" x="401.32" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R40" gate="G$1" x="386.08" y="15.24">
 <attribute name="PARTNO" x="386.08" y="15.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R45" gate="G$1" x="431.8" y="7.62" rot="R270">
 <attribute name="PARTNO" x="431.8" y="7.62" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="Q6" gate="G$1" x="439.42" y="15.24"/>
+<instance part="Q6" gate="G$1" x="439.42" y="15.24">
+<attribute name="PARTNO" x="439.42" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R43" gate="G$1" x="424.18" y="15.24">
 <attribute name="PARTNO" x="424.18" y="15.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -12054,16 +12101,23 @@ place only</text>
 <instance part="J3" gate="G$1" x="-284.48" y="-12.7" rot="R180"/>
 <instance part="J5" gate="G$1" x="-269.24" y="58.42" rot="R180"/>
 <instance part="J4" gate="G$1" x="-276.86" y="-53.34" rot="R180"/>
-<instance part="D2" gate="G$1" x="243.84" y="40.64" rot="R90"/>
+<instance part="D2" gate="G$1" x="243.84" y="40.64" rot="R90">
+<attribute name="PARTNO" x="243.84" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V32" gate="G$1" x="-261.62" y="-38.1"/>
 <instance part="J6" gate="G$1" x="-226.06" y="30.48"/>
 <instance part="J7" gate="G$1" x="-226.06" y="25.4"/>
 <instance part="J8" gate="G$1" x="-226.06" y="20.32"/>
 <instance part="J2" gate="G$1" x="-304.8" y="22.86" rot="R180"/>
 <instance part="J1" gate="G$1" x="-327.66" y="-12.7" rot="R180"/>
-<instance part="C1" gate="G$1" x="-213.36" y="-20.32"/>
-<instance part="R16" gate="G$1" x="-27.94" y="-76.2" rot="R180"/>
+<instance part="C1" gate="G$1" x="-213.36" y="-20.32">
+<attribute name="PARTNO" x="-213.36" y="-20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="G$1" x="-27.94" y="-76.2" rot="R180">
+<attribute name="PARTNO" x="-27.94" y="-76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="D1" gate="G$1" x="129.54" y="86.36"/>
+<instance part="LED2" gate="G$1" x="-73.66" y="-73.66"/>
 </instances>
 <busses>
 </busses>
@@ -12726,8 +12780,8 @@ place only</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="-73.66" y1="-81.28" x2="-73.66" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12757,10 +12811,10 @@ place only</text>
 <label x="-71.12" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="-73.66" y1="-71.12" x2="-73.66" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-68.58" x2="-58.42" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-71.12" y="-68.58" size="1.778" layer="95"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="RX_SCL_MOSI" class="0">
