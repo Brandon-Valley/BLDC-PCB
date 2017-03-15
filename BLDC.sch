@@ -11712,6 +11712,7 @@ place only</text>
 <text x="-218.44" y="-30.48" size="1.778" layer="97" rot="R90">60V - 0V V_Batt</text>
 <text x="-447.04" y="185.42" size="1.778" layer="97">r35,36</text>
 <text x="-20.32" y="76.2" size="1.778" layer="91">NEED TO CONNECT?????????????</text>
+<text x="-462.28" y="127" size="1.778" layer="91">debugger? - T2I-05-VT-T-S-TH</text>
 </plain>
 <instances>
 <instance part="GND33" gate="1" x="198.12" y="-91.44"/>
