@@ -1909,6 +1909,26 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <wire x1="-1.778" y1="-2.286" x2="-2.286" y2="-2.286" width="0.127" layer="21"/>
 <wire x1="-2.286" y1="-2.286" x2="-2.032" y2="-2.54" width="0.127" layer="21"/>
 </package>
+<package name="IPBT-102-H1-XX-S-RA">
+<description>.165 SINGLE ROW TERMINAL ASSEMBLY.</description>
+<wire x1="-4.8641" y1="0" x2="4.8641" y2="0" width="0.127" layer="51"/>
+<wire x1="4.8641" y1="0" x2="4.8641" y2="-10.287" width="0.127" layer="51"/>
+<wire x1="4.8641" y1="-10.287" x2="-4.8641" y2="-10.287" width="0.127" layer="51"/>
+<wire x1="-4.8641" y1="-10.287" x2="-4.8641" y2="0" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="0" x2="8.89" y2="0" width="0.0254" layer="47"/>
+<wire x1="-5.3721" y1="-0.508" x2="-5.3721" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="-5.3721" y1="-10.795" x2="-3.6322" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="-3.6322" y1="-10.795" x2="-3.6322" y2="-13.2842" width="0.127" layer="21"/>
+<wire x1="-3.6322" y1="-13.2842" x2="3.6322" y2="-13.2842" width="0.127" layer="21"/>
+<wire x1="3.6322" y1="-13.2842" x2="3.6322" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="3.6322" y1="-10.795" x2="5.3721" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="5.3721" y1="-10.795" x2="5.3721" y2="-0.508" width="0.127" layer="21"/>
+<pad name="1" x="-2.0955" y="-11.7602" drill="1.778" diameter="2.54"/>
+<pad name="2" x="2.0955" y="-11.7602" drill="1.778" diameter="2.54"/>
+<text x="-3.048" y="0.508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-15.24" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.699" y="-12.7" size="1.27" layer="21">1</text>
+</package>
 </packages>
 </library>
 <library name="adafruit">
@@ -2511,6 +2531,7 @@ design rules under a new name.</description>
 <element name="J1" library="FormE" package="JST-1X7" value="" x="-137.4775" y="-123.5075"/>
 <element name="J2" library="FormE" package="JST-1X7" value="" x="-137.4775" y="-136.8425"/>
 <element name="J3" library="FormE" package="CON4_2X2_P163_VMNL-1MTG" value="1-770174-1" x="-13.6525" y="55.245" rot="R270"/>
+<element name="J4" library="FormE" package="IPBT-102-H1-XX-S-RA" value="IPBT-102-H1-XX-S-RA" x="-134.62" y="-145.7325"/>
 </elements>
 <signals>
 <signal name="GND">
