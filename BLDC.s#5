@@ -1907,6 +1907,25 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <text x="-3.048" y="-15.24" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-4.699" y="-12.7" size="1.27" layer="21">1</text>
 </package>
+<package name="IPBT-103-H1-XX-S-RA">
+<wire x1="-4.8641" y1="12.7" x2="9.0805" y2="12.7" width="0.127" layer="51"/>
+<wire x1="9.0805" y1="12.7" x2="9.0805" y2="2.413" width="0.127" layer="51"/>
+<wire x1="9.0805" y1="2.413" x2="-4.8641" y2="2.413" width="0.127" layer="51"/>
+<wire x1="-4.8641" y1="2.413" x2="-4.8641" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-5.3721" y1="12.192" x2="-5.3721" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-5.3721" y1="1.905" x2="-3.6322" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-3.6322" y1="1.905" x2="-3.6322" y2="-0.5842" width="0.127" layer="21"/>
+<wire x1="-3.6322" y1="-0.5842" x2="7.8486" y2="-0.5842" width="0.127" layer="21"/>
+<wire x1="7.8486" y1="-0.5842" x2="7.8486" y2="1.905" width="0.127" layer="21"/>
+<wire x1="7.8486" y1="1.905" x2="9.5885" y2="1.905" width="0.127" layer="21"/>
+<wire x1="9.5885" y1="1.905" x2="9.5885" y2="12.192" width="0.127" layer="21"/>
+<pad name="1" x="-2.0955" y="0.9398" drill="1.778" diameter="2.54"/>
+<pad name="3" x="6.2865" y="0.9398" drill="1.778" diameter="2.54"/>
+<text x="-3.048" y="13.208" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.699" y="0" size="1.27" layer="21">1</text>
+<pad name="2" x="2.0955" y="0.9398" drill="1.778" diameter="2.54"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -2309,6 +2328,17 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <text x="5.08" y="-7.112" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="0" length="middle"/>
 <pin name="2" x="0" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="IPBT-103-H1-XX-S">
+<wire x1="5.08" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="5.08" y="3.302" size="1.27" layer="95">&gt;NAME</text>
+<text x="5.08" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3230,6 +3260,24 @@ Some male, some female. Watch your step!</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPBT-103-H1-XX-S-RA" prefix="J">
+<description>.165 pitch 1X3 right angle brd-cable connector</description>
+<gates>
+<gate name="G$1" symbol="IPBT-103-H1-XX-S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IPBT-103-H1-XX-S-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11596,7 +11644,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J1" library="FormE" deviceset="JST-1X7-MICRO" device="" value=""/>
 <part name="J2" library="FormE" deviceset="JST-1X7-MICRO" device="" value=""/>
 <part name="J3" library="FormE" deviceset="1-770174-1" device=""/>
-<part name="J4" library="FormE" deviceset="IPBT-102-H1-XX-S-RA" device=""/>
+<part name="J4" library="FormE" deviceset="IPBT-102-H1-XX-S-RA" device="" value=""/>
+<part name="J5" library="FormE" deviceset="IPBT-103-H1-XX-S-RA" device="" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12122,6 +12171,7 @@ Resistors</text>
 <instance part="J2" gate="G$1" x="-266.7" y="5.08" rot="R180"/>
 <instance part="J3" gate="G$1" x="-325.12" y="22.86"/>
 <instance part="J4" gate="G$1" x="-378.46" y="12.7"/>
+<instance part="J5" gate="G$1" x="-381" y="-2.54"/>
 </instances>
 <busses>
 </busses>

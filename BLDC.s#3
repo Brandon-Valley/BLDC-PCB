@@ -11624,7 +11624,6 @@ place near VDD pins</text>
 <wire x1="-241.3" y1="-129.54" x2="-137.16" y2="-129.54" width="0.6096" layer="95"/>
 <wire x1="-137.16" y1="-129.54" x2="-137.16" y2="-71.12" width="0.6096" layer="95"/>
 <wire x1="-137.16" y1="-71.12" x2="-241.3" y2="-71.12" width="0.6096" layer="95"/>
-<text x="-256.54" y="160.02" size="1.778" layer="97">Might need to find/make new red LED</text>
 <text x="-256.54" y="170.18" size="6.4516" layer="97">REMEMBER:</text>
 <text x="-375.92" y="170.18" size="6.4516" layer="97">NEED?</text>
 <text x="-375.92" y="154.94" size="1.778" layer="97">STM32:
