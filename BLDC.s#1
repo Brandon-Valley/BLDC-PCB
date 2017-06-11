@@ -11651,27 +11651,26 @@ Resistors</text>
 <wire x1="-304.8" y1="-58.42" x2="-304.8" y2="-147.32" width="0.6096" layer="97"/>
 <wire x1="-304.8" y1="-147.32" x2="-337.82" y2="-147.32" width="0.6096" layer="97"/>
 <wire x1="-337.82" y1="-147.32" x2="-337.82" y2="-58.42" width="0.6096" layer="97"/>
-<text x="-45.72" y="-86.36" size="6.4516" layer="97">where to put?</text>
 <text x="-114.3" y="-76.2" size="5.08" layer="97">STM32 LEDS</text>
 <wire x1="-119.38" y1="-68.58" x2="-63.5" y2="-68.58" width="0.6096" layer="97"/>
 <wire x1="-63.5" y1="-68.58" x2="-63.5" y2="-129.54" width="0.6096" layer="97"/>
 <wire x1="-63.5" y1="-129.54" x2="-119.38" y2="-129.54" width="0.6096" layer="97"/>
 <wire x1="-119.38" y1="-129.54" x2="-119.38" y2="-68.58" width="0.6096" layer="97"/>
 <text x="-238.76" y="58.42" size="2.1844" layer="97">I2C Connection</text>
-<text x="-414.02" y="58.42" size="2.1844" layer="97" rot="R90">I2C Connection</text>
+<text x="-393.7" y="63.5" size="2.1844" layer="97" rot="R90">I2C Connection</text>
 <text x="-276.86" y="-35.56" size="2.1844" layer="97" rot="R270">CAN / AUX</text>
 <text x="-436.88" y="12.7" size="2.1844" layer="97">CAN / AUX</text>
 <text x="-276.86" y="5.08" size="2.1844" layer="97" rot="R270">AUX</text>
-<text x="-469.9" y="12.7" size="2.1844" layer="97">AUX</text>
+<text x="-485.14" y="40.64" size="2.1844" layer="97" rot="R270">AUX</text>
 <text x="-264.16" y="106.68" size="2.1844" layer="97">USB</text>
 <text x="-454.66" y="12.7" size="2.1844" layer="97">USB</text>
-<text x="-477.52" y="35.56" size="2.1844" layer="97" rot="R90">Debugger</text>
-<text x="-416.56" y="48.26" size="2.1844" layer="97" rot="R270">Hall Inputs</text>
+<text x="-396.24" y="50.8" size="2.1844" layer="97" rot="R270">Debugger</text>
+<text x="-462.28" y="15.24" size="2.1844" layer="97" rot="R180">Hall Inputs</text>
 <text x="-279.4" y="50.8" size="2.1844" layer="97" rot="R90">Hall Inputs</text>
-<wire x1="-472.44" y1="17.78" x2="-462.28" y2="17.78" width="0.6096" layer="97"/>
-<wire x1="-462.28" y1="17.78" x2="-462.28" y2="10.16" width="0.6096" layer="97"/>
-<wire x1="-462.28" y1="10.16" x2="-472.44" y2="10.16" width="0.6096" layer="97"/>
-<wire x1="-472.44" y1="10.16" x2="-472.44" y2="17.78" width="0.6096" layer="97"/>
+<wire x1="-480.06" y1="43.18" x2="-480.06" y2="33.02" width="0.6096" layer="97"/>
+<wire x1="-480.06" y1="33.02" x2="-487.68" y2="33.02" width="0.6096" layer="97"/>
+<wire x1="-487.68" y1="33.02" x2="-487.68" y2="43.18" width="0.6096" layer="97"/>
+<wire x1="-487.68" y1="43.18" x2="-480.06" y2="43.18" width="0.6096" layer="97"/>
 <wire x1="-457.2" y1="17.78" x2="-447.04" y2="17.78" width="0.6096" layer="97"/>
 <wire x1="-447.04" y1="17.78" x2="-447.04" y2="10.16" width="0.6096" layer="97"/>
 <wire x1="-447.04" y1="10.16" x2="-457.2" y2="10.16" width="0.6096" layer="97"/>
@@ -11680,18 +11679,18 @@ Resistors</text>
 <wire x1="-416.56" y1="17.78" x2="-416.56" y2="10.16" width="0.6096" layer="97"/>
 <wire x1="-416.56" y1="10.16" x2="-439.42" y2="10.16" width="0.6096" layer="97"/>
 <wire x1="-439.42" y1="10.16" x2="-439.42" y2="17.78" width="0.6096" layer="97"/>
-<wire x1="-482.6" y1="33.02" x2="-482.6" y2="53.34" width="0.6096" layer="97"/>
-<wire x1="-482.6" y1="53.34" x2="-474.98" y2="53.34" width="0.6096" layer="97"/>
-<wire x1="-474.98" y1="53.34" x2="-474.98" y2="33.02" width="0.6096" layer="97"/>
-<wire x1="-474.98" y1="33.02" x2="-482.6" y2="33.02" width="0.6096" layer="97"/>
-<wire x1="-411.48" y1="50.8" x2="-411.48" y2="27.94" width="0.6096" layer="97"/>
-<wire x1="-411.48" y1="27.94" x2="-419.1" y2="27.94" width="0.6096" layer="97"/>
-<wire x1="-419.1" y1="27.94" x2="-419.1" y2="50.8" width="0.6096" layer="97"/>
-<wire x1="-419.1" y1="50.8" x2="-411.48" y2="50.8" width="0.6096" layer="97"/>
-<wire x1="-419.1" y1="55.88" x2="-419.1" y2="86.36" width="0.6096" layer="97"/>
-<wire x1="-419.1" y1="86.36" x2="-411.48" y2="86.36" width="0.6096" layer="97"/>
-<wire x1="-411.48" y1="86.36" x2="-411.48" y2="55.88" width="0.6096" layer="97"/>
-<wire x1="-411.48" y1="55.88" x2="-419.1" y2="55.88" width="0.6096" layer="97"/>
+<wire x1="-391.16" y1="53.34" x2="-391.16" y2="33.02" width="0.6096" layer="97"/>
+<wire x1="-391.16" y1="33.02" x2="-398.78" y2="33.02" width="0.6096" layer="97"/>
+<wire x1="-398.78" y1="33.02" x2="-398.78" y2="53.34" width="0.6096" layer="97"/>
+<wire x1="-398.78" y1="53.34" x2="-391.16" y2="53.34" width="0.6096" layer="97"/>
+<wire x1="-459.74" y1="10.16" x2="-482.6" y2="10.16" width="0.6096" layer="97"/>
+<wire x1="-482.6" y1="10.16" x2="-482.6" y2="17.78" width="0.6096" layer="97"/>
+<wire x1="-482.6" y1="17.78" x2="-459.74" y2="17.78" width="0.6096" layer="97"/>
+<wire x1="-459.74" y1="17.78" x2="-459.74" y2="10.16" width="0.6096" layer="97"/>
+<wire x1="-398.78" y1="60.96" x2="-398.78" y2="91.44" width="0.6096" layer="97"/>
+<wire x1="-398.78" y1="91.44" x2="-391.16" y2="91.44" width="0.6096" layer="97"/>
+<wire x1="-391.16" y1="91.44" x2="-391.16" y2="60.96" width="0.6096" layer="97"/>
+<wire x1="-391.16" y1="60.96" x2="-398.78" y2="60.96" width="0.6096" layer="97"/>
 <text x="-439.42" y="104.14" size="2.1844" layer="97">PWR IN</text>
 <wire x1="-441.96" y1="109.22" x2="-426.72" y2="109.22" width="0.6096" layer="97"/>
 <wire x1="-426.72" y1="109.22" x2="-426.72" y2="101.6" width="0.6096" layer="97"/>
@@ -11702,6 +11701,7 @@ Resistors</text>
 <wire x1="-444.5" y1="109.22" x2="-444.5" y2="101.6" width="0.6096" layer="97"/>
 <wire x1="-444.5" y1="101.6" x2="-469.9" y2="101.6" width="0.6096" layer="97"/>
 <wire x1="-469.9" y1="101.6" x2="-469.9" y2="109.22" width="0.6096" layer="97"/>
+<text x="-12.7" y="-71.12" size="1.778" layer="91">Put close to big fets</text>
 </plain>
 <instances>
 <instance part="GND33" gate="1" x="200.66" y="-91.44"/>
@@ -13007,14 +13007,6 @@ Resistors</text>
 <junction x="-86.36" y="68.58"/>
 </segment>
 </net>
-<net name="V_BATT" class="0">
-<segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="129.54" x2="-121.92" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="132.08" x2="-124.46" y2="132.08" width="0.1524" layer="91"/>
-<label x="-124.46" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="AN_IN" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -13573,6 +13565,12 @@ Resistors</text>
 <wire x1="-218.44" y1="-12.7" x2="-218.44" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="-218.44" y1="-17.78" x2="-220.98" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="129.54" x2="-121.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="132.08" x2="-124.46" y2="132.08" width="0.1524" layer="91"/>
+<label x="-124.46" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$20" class="0">
