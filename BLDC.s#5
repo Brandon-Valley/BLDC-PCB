@@ -14071,14 +14071,14 @@ Resistors</text>
 <pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="PC1"/>
-<wire x1="-55.88" y1="17.78" x2="-88.9" y2="17.78" width="0.1524" layer="91"/>
-<label x="-88.9" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R46" gate="G$1" pin="2"/>
 <wire x1="-322.58" y1="-83.82" x2="-332.74" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-332.74" y="-83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="PC3"/>
+<wire x1="-55.88" y1="12.7" x2="-88.9" y2="12.7" width="0.1524" layer="91"/>
+<label x="-88.9" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUX_2" class="0">
@@ -14088,14 +14088,14 @@ Resistors</text>
 <pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="PC3"/>
-<wire x1="-55.88" y1="12.7" x2="-88.9" y2="12.7" width="0.1524" layer="91"/>
-<label x="-88.9" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="-322.58" y1="-91.44" x2="-332.74" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-332.74" y="-91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="PC1"/>
+<wire x1="-55.88" y1="17.78" x2="-88.9" y2="17.78" width="0.1524" layer="91"/>
+<label x="-88.9" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUX_3" class="0">
