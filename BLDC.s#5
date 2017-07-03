@@ -11652,6 +11652,10 @@ Resistors</text>
 <wire x1="-469.9" y1="101.6" x2="-469.9" y2="109.22" width="0.6096" layer="97"/>
 <text x="-12.7" y="-71.12" size="1.778" layer="91">Put close to big fets</text>
 <text x="-254" y="160.02" size="1.778" layer="91">DONT FORGET VIAS AROUND GND TO GATE DRIVER</text>
+<text x="-347.98" y="106.68" size="6.4516" layer="97">Connect shield
+GND to signal
+GNN in one 
+place only</text>
 </plain>
 <instances>
 <instance part="GND33" gate="1" x="200.66" y="-91.44"/>

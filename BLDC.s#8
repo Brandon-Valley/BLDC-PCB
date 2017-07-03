@@ -11560,14 +11560,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="LED5" library="FormE" deviceset="5988110107F" device="" value="RED"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="P+16" library="supply1" deviceset="VCC" device=""/>
-<part name="SUPPLY3" library="supply2" deviceset="DGND" device=""/>
 <part name="C49" library="FormE" deviceset="UVR1J222MHD" device="" value="2200uF">
 <attribute name="PARTNO" value="UVR1J222MHD"/>
 </part>
 <part name="R54" library="adafruit" deviceset="R-US_" device="R0805" value="0k">
 <attribute name="PARTNO" value="ERJ-6GEY0R00V"/>
 </part>
+<part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
+<part name="P+5" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11643,7 +11643,7 @@ place only</text>
 <text x="-93.98" y="180.34" size="6.4516" layer="97">NEED TO DECIDE HOW MANY AUX!!!!!!!!!!!!!!</text>
 <text x="-30.48" y="-66.04" size="1.778" layer="97">brd temp</text>
 <text x="350.52" y="-40.64" size="6.4516" layer="97">Need output connect</text>
-<text x="-203.2" y="-7.62" size="1.778" layer="97" rot="R270">60V - 0V V_Batt</text>
+<text x="-233.68" y="-33.02" size="1.778" layer="97" rot="R90">60V - 0V V_Batt</text>
 <text x="-447.04" y="185.42" size="1.778" layer="97">r35,36</text>
 <text x="-462.28" y="127" size="1.778" layer="91">debugger? - T2I-05-VT-T-S-TH</text>
 <text x="-335.28" y="-76.2" size="3.81" layer="97">AUX
@@ -12127,7 +12127,7 @@ Resistors</text>
 <instance part="J8" gate="G$1" x="-271.78" y="60.96" rot="R180"/>
 <instance part="J1" gate="G$1" x="-266.7" y="2.54" rot="R180"/>
 <instance part="J2" gate="G$1" x="-266.7" y="-45.72" rot="R180"/>
-<instance part="J4" gate="G$1" x="-218.44" y="-17.78"/>
+<instance part="J4" gate="G$1" x="-218.44" y="-22.86" rot="R180"/>
 <instance part="J5" gate="G$1" x="482.6" y="35.56"/>
 <instance part="LED4" gate="G$1" x="-91.44" y="-83.82" rot="R270">
 <attribute name="PARTNO" x="-91.44" y="-83.82" size="1.778" layer="96" rot="R270" display="off"/>
@@ -12143,14 +12143,14 @@ Resistors</text>
 <instance part="LED5" gate="G$1" x="-91.44" y="-121.92" rot="R270"/>
 <instance part="P+15" gate="1" x="-256.54" y="17.78"/>
 <instance part="GND47" gate="1" x="-256.54" y="-10.16"/>
-<instance part="P+16" gate="VCC" x="-228.6" y="-7.62"/>
-<instance part="SUPPLY3" gate="G$1" x="-228.6" y="-33.02"/>
-<instance part="C49" gate="G$1" x="-226.06" y="-20.32">
-<attribute name="PARTNO" x="-226.06" y="-20.32" size="1.778" layer="96" display="off"/>
+<instance part="C49" gate="G$1" x="-210.82" y="-20.32" rot="R180">
+<attribute name="PARTNO" x="-210.82" y="-20.32" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R54" gate="G$1" x="309.88" y="22.86" rot="R90">
 <attribute name="PARTNO" x="309.88" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="SUPPLY1" gate="G$1" x="-208.28" y="-33.02"/>
+<instance part="P+5" gate="VCC" x="-208.28" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -13548,16 +13548,16 @@ Resistors</text>
 <label x="-124.46" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-228.6" y1="-12.7" x2="-228.6" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="-12.7" x2="-226.06" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="-12.7" x2="-220.98" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="-12.7" x2="-220.98" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="-220.98" y1="-17.78" x2="-218.44" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="P+16" gate="VCC" pin="VCC"/>
-<pinref part="C49" gate="G$1" pin="+"/>
-<wire x1="-226.06" y1="-15.24" x2="-226.06" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-226.06" y="-12.7"/>
+<wire x1="-208.28" y1="-15.24" x2="-208.28" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-208.28" y1="-15.24" x2="-210.82" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-15.24" x2="-215.9" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="-15.24" x2="-215.9" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="-215.9" y1="-20.32" x2="-218.44" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="C49" gate="G$1" pin="-"/>
+<wire x1="-210.82" y1="-17.78" x2="-210.82" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-210.82" y="-15.24"/>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -14039,16 +14039,16 @@ Resistors</text>
 <pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<wire x1="-228.6" y1="-25.4" x2="-228.6" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-228.6" y1="-25.4" x2="-226.06" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-226.06" y1="-25.4" x2="-220.98" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-220.98" y1="-25.4" x2="-220.98" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="-220.98" y1="-20.32" x2="-218.44" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
-<pinref part="C49" gate="G$1" pin="-"/>
-<wire x1="-226.06" y1="-22.86" x2="-226.06" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="-226.06" y="-25.4"/>
+<wire x1="-208.28" y1="-27.94" x2="-208.28" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-208.28" y1="-27.94" x2="-210.82" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="-27.94" x2="-215.9" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="-27.94" x2="-215.9" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="-215.9" y1="-22.86" x2="-218.44" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="C49" gate="G$1" pin="+"/>
+<wire x1="-210.82" y1="-25.4" x2="-210.82" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-210.82" y="-27.94"/>
+<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
 </segment>
 </net>
 <net name="AUX_1" class="0">
