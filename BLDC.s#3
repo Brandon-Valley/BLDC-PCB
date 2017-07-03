@@ -11652,6 +11652,10 @@ Resistors</text>
 <wire x1="-469.9" y1="101.6" x2="-469.9" y2="109.22" width="0.6096" layer="97"/>
 <text x="-12.7" y="-71.12" size="1.778" layer="91">Put close to big fets</text>
 <text x="-254" y="160.02" size="1.778" layer="91">DONT FORGET VIAS AROUND GND TO GATE DRIVER</text>
+<text x="-347.98" y="106.68" size="6.4516" layer="97">Connect shield
+GND to signal
+GNN in one 
+place only</text>
 </plain>
 <instances>
 <instance part="GND33" gate="1" x="200.66" y="-91.44"/>
@@ -13023,15 +13027,6 @@ Resistors</text>
 <junction x="-157.48" y="20.32"/>
 <label x="-167.64" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="-154.94" y1="-10.16" x2="-157.48" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-157.48" y1="-10.16" x2="-167.64" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="-10.16" x2="-157.48" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-157.48" y="-10.16"/>
-<label x="-167.64" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="HALL_1_OUT" class="0">
 <segment>
@@ -14148,6 +14143,15 @@ Resistors</text>
 <wire x1="-269.24" y1="58.42" x2="-246.38" y2="58.42" width="0.1524" layer="91"/>
 <label x="-261.62" y="58.42" size="1.778" layer="95"/>
 <pinref part="J8" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="-154.94" y1="-10.16" x2="-157.48" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="-10.16" x2="-167.64" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="-10.16" x2="-157.48" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-157.48" y="-10.16"/>
+<label x="-167.64" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
