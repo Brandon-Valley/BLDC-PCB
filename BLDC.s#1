@@ -11056,16 +11056,16 @@ type 0309, grid 2.5 mm</description>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP1" library="FormE" deviceset="USB_MICROB_PLUG" device="-PTH3"/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C11" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C13" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C26" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="+3V39" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
@@ -11073,16 +11073,16 @@ type 0309, grid 2.5 mm</description>
 <part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C18" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C19" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
@@ -11116,7 +11116,7 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="22R">
@@ -11131,11 +11131,11 @@ type 0309, grid 2.5 mm</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="Y1" library="FormE" deviceset="ABM3B-8.000MHZ-10-1-U-T" device="" value="8MHz"/>
 <part name="C7" library="rcl" deviceset="C-US" device="C0805" value="15p">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="CL21C150JBANNNC"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="C-US" device="C0805" value="15p">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="CL21C150JBANNNC"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
@@ -11145,7 +11145,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="C16" library="rcl" deviceset="C-US" device="C0805" value="100n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="08053C104KAT2A"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
@@ -11155,7 +11155,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="4n7">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
 </part>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -11166,7 +11166,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="4n7">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
 </part>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -11177,12 +11177,12 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="4n7">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
 </part>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="100n">
+<attribute name="PARTNO" value="08053C104KAT2A"/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="FormE" deviceset="DRV8302" device="">
@@ -11193,13 +11193,13 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF2203V"/>
 </part>
 <part name="C32" library="rcl" deviceset="C-US" device="C0805" value="120pf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="08051A121FAT2A"/>
 </part>
 <part name="R42" library="adafruit" deviceset="R-US_" device="R0805" value="15K">
 <attribute name="PARTNO" value="ERJ-6ENF1502V"/>
 </part>
 <part name="C31" library="rcl" deviceset="C-US" device="C0805" value="6.8n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="C0805C682K5RACTU"/>
 </part>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="R37" library="adafruit" deviceset="R-US_" device="R0805" value="18K">
@@ -11213,35 +11213,35 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="C22" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C24" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C27" library="rcl" deviceset="C-US" device="C0805" value="22n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="C2012C0G1H223J125AA"/>
 </part>
 <part name="C23" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="C25" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="+3V314" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="C30" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
-<part name="C40" library="rcl" deviceset="C-US" device="C0805" value="10uf, 50V">
+<part name="C40" library="rcl" deviceset="C-US" device="C0805" value="10uf,50V">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="FormE" deviceset="L0805" device="" value="22uH">
-<attribute name="PARTNO" value="74479775222"/>
+<attribute name="PARTNO" value="SRR1280A-220M"/>
 </part>
 <part name="C44" library="rcl" deviceset="C-US" device="C0805" value="100n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="08053C104KAT2A"/>
 </part>
 <part name="C48" library="rcl" deviceset="C-US" device="C0805" value="100uf">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11249,16 +11249,16 @@ type 0309, grid 2.5 mm</description>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
-<attribute name="PARTNO" value="ERJ-6ENF2203V"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V"/>
 </part>
 <part name="C37" library="rcl" deviceset="C-US" device="C0805" value="220n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM219R71C224KA01D"/>
 </part>
 <part name="C38" library="rcl" deviceset="C-US" device="C0805" value="220n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM219R71C224KA01D"/>
 </part>
 <part name="C39" library="rcl" deviceset="C-US" device="C0805" value="220n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM219R71C224KA01D"/>
 </part>
 <part name="R44" library="adafruit" deviceset="R-US_" device="R0805" value="100R">
 <attribute name="PARTNO" value="ERJ-6ENF1000V"/>
@@ -11294,7 +11294,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C41" library="rcl" deviceset="C-US" device="C0805" value="15uf,100V">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="C5750X7S2A156M250KB"/>
 </part>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
@@ -11328,7 +11328,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="C49" library="rcl" deviceset="C-US" device="C0805" value="15uf,100V">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="C5750X7S2A156M250KB"/>
 </part>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
@@ -11393,7 +11393,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="4n7">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
 </part>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -11402,7 +11402,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="C12" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
@@ -11415,7 +11415,9 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="NCP18XH103F03RB"/>
 </part>
 <part name="D1" library="FormE" deviceset="PLVA650A" device="" value="5V"/>
-<part name="LED3" library="FormE" deviceset="5988110107F" device="" value="RED"/>
+<part name="LED3" library="FormE" deviceset="5988110107F" device="" value="RED">
+<attribute name="PARTNO" value="5988110107F"/>
+</part>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
@@ -11468,7 +11470,7 @@ type 0309, grid 2.5 mm</description>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="+3V313" library="supply1" deviceset="+3V3" device=""/>
@@ -11488,7 +11490,7 @@ type 0309, grid 2.5 mm</description>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="C21" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
 </parts>
 <sheets>
@@ -11896,10 +11898,10 @@ one place</text>
 <attribute name="PARTNO" x="436.88" y="190.5" size="6.4516" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+13" gate="VCC" x="502.92" y="271.78"/>
-<instance part="C40" gate="G$1" x="515.62" y="261.62" rot="MR0">
-<attribute name="PARTNO" x="515.62" y="261.62" size="6.4516" layer="96" rot="MR0" display="off"/>
+<instance part="C40" gate="G$1" x="518.16" y="261.62" rot="MR0">
+<attribute name="PARTNO" x="518.16" y="261.62" size="6.4516" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND44" gate="1" x="515.62" y="251.46" rot="MR0"/>
+<instance part="GND44" gate="1" x="518.16" y="251.46" rot="MR0"/>
 <instance part="L2" gate="G$1" x="551.18" y="246.38">
 <attribute name="PARTNO" x="551.18" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
@@ -12078,7 +12080,9 @@ one place</text>
 <attribute name="PARTNO" x="307.34" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="414.02" y="287.02"/>
-<instance part="LED3" gate="G$1" x="251.46" y="81.28" rot="R270"/>
+<instance part="LED3" gate="G$1" x="251.46" y="81.28" rot="R270">
+<attribute name="PARTNO" x="251.46" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R14" gate="G$1" x="203.2" y="124.46" rot="R180">
 <attribute name="PARTNO" x="203.2" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -12387,7 +12391,7 @@ one place</text>
 <segment>
 <pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="515.62" y1="256.54" x2="515.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="256.54" x2="518.16" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C48" gate="G$1" pin="2"/>
@@ -13518,8 +13522,8 @@ one place</text>
 <junction x="502.92" y="251.46"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="502.92" y1="266.7" x2="502.92" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="264.16" x2="515.62" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="266.7" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="264.16" x2="518.16" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="266.7" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
 <junction x="502.92" y="266.7"/>
 <wire x1="502.92" y1="251.46" x2="502.92" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="PVDD1"/>
@@ -14368,21 +14372,20 @@ one place</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,-55.88,83.82,U2,VBAT,+3V3,,,"/>
-<approved hash="202,1,-55.88,27.94,U2,PD0_OSC_IN,,,,"/>
-<approved hash="104,1,-5.08,81.28,U2,VSSA,GND,,,"/>
-<approved hash="104,1,-5.08,83.82,U2,VDDA,+3V3,,,"/>
-<approved hash="104,1,-5.08,63.5,U2,VSS_4,GND,,,"/>
-<approved hash="104,1,-55.88,81.28,U2,VDD_4,+3V3,,,"/>
-<approved hash="104,1,-5.08,76.2,U2,VSS_1,N$37,,,"/>
-<approved hash="104,1,-55.88,73.66,U2,VDD_1,+3V3,,,"/>
-<approved hash="104,1,-5.08,73.66,U2,VSS_2,N$6,,,"/>
-<approved hash="104,1,-55.88,76.2,U2,VDD_2,+3V3,,,"/>
-<approved hash="104,1,-5.08,60.96,U2,VSS_,GND,,,"/>
-<approved hash="104,1,-55.88,78.74,U2,VDD_3,+3V3,,,"/>
-<approved hash="104,1,-170.18,-104.14,U1,VSS,GND,,,"/>
-<approved hash="104,1,-170.18,-106.68,U1,VDD,+5V,,,"/>
-<approved hash="113,1,-259.08,90.1277,JP1,,,,,"/>
+<approved hash="104,1,279.4,261.62,U2,VBAT,+3V3,,,"/>
+<approved hash="104,1,330.2,259.08,U2,VSSA,GND,,,"/>
+<approved hash="104,1,330.2,261.62,U2,VDDA,+3V3,,,"/>
+<approved hash="104,1,330.2,241.3,U2,VSS_4,GND,,,"/>
+<approved hash="104,1,279.4,259.08,U2,VDD_4,+3V3,,,"/>
+<approved hash="104,1,330.2,254,U2,VSS_1,N$37,,,"/>
+<approved hash="104,1,279.4,251.46,U2,VDD_1,+3V3,,,"/>
+<approved hash="104,1,330.2,251.46,U2,VSS_2,N$6,,,"/>
+<approved hash="104,1,279.4,254,U2,VDD_2,+3V3,,,"/>
+<approved hash="104,1,330.2,238.76,U2,VSS_,GND,,,"/>
+<approved hash="104,1,279.4,256.54,U2,VDD_3,+3V3,,,"/>
+<approved hash="104,1,236.22,25.4,U1,VSS,GND,,,"/>
+<approved hash="104,1,236.22,22.86,U1,VDD,+5V,,,"/>
+<approved hash="113,1,111.76,130.768,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
