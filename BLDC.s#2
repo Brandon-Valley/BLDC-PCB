@@ -1889,6 +1889,15 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <text x="-4.699" y="0" size="1.27" layer="21">1</text>
 <pad name="2" x="2.0955" y="0.9398" drill="1.778" diameter="2.54"/>
 </package>
+<package name="TYS5040220M-10">
+<smd name="P$1" x="2.2" y="0" dx="5" dy="2.8" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.2" y="0" dx="5" dy="2.8" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -3155,6 +3164,25 @@ Some male, some female. Watch your step!</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TYS5040220M-10" prefix="L">
+<description>22uH 1.5A inductor</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TYS5040220M-10">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="22uH"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11237,14 +11265,11 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="L2" library="FormE" deviceset="L0805" device="" value="22uH">
-<attribute name="PARTNO" value="SRR1280A-220M"/>
-</part>
 <part name="C44" library="rcl" deviceset="C-US" device="C0805" value="100n">
 <attribute name="PARTNO" value="08053C104KAT2A"/>
 </part>
 <part name="C48" library="rcl" deviceset="C-US" device="C0805" value="100uf">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="GRM21BR60G107ME15L"/>
 </part>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
@@ -11273,10 +11298,10 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1000V"/>
 </part>
 <part name="C45" library="rcl" deviceset="C-US" device="C0805" value="2.2n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="C2012C0G1H222J060AA"/>
 </part>
 <part name="C46" library="rcl" deviceset="C-US" device="C0805" value="2.2n">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+<attribute name="PARTNO" value="C2012C0G1H222J060AA"/>
 </part>
 <part name="C34" library="rcl" deviceset="C-US" device="C0805" value="10uf,50V">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
@@ -11414,7 +11439,9 @@ type 0309, grid 2.5 mm</description>
 <part name="R26" library="FormE" deviceset="NCP18XH103F03RB" device="" value="10K">
 <attribute name="PARTNO" value="NCP18XH103F03RB"/>
 </part>
-<part name="D1" library="FormE" deviceset="PLVA650A" device="" value="5V"/>
+<part name="D1" library="FormE" deviceset="PLVA650A" device="" value="5V">
+<attribute name="PARTNO" value="SMF5.0A"/>
+</part>
 <part name="LED3" library="FormE" deviceset="5988110107F" device="" value="RED">
 <attribute name="PARTNO" value="5988110107F"/>
 </part>
@@ -11492,6 +11519,7 @@ type 0309, grid 2.5 mm</description>
 <part name="C21" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
 <attribute name="PARTNO" value="UMK212BB7225KG-T"/>
 </part>
+<part name="L3" library="FormE" deviceset="TYS5040220M-10" device="" value="22uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -11898,13 +11926,10 @@ one place</text>
 <attribute name="PARTNO" x="436.88" y="190.5" size="6.4516" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+13" gate="VCC" x="502.92" y="271.78"/>
-<instance part="C40" gate="G$1" x="515.62" y="261.62" rot="MR0">
-<attribute name="PARTNO" x="515.62" y="261.62" size="6.4516" layer="96" rot="MR0" display="off"/>
+<instance part="C40" gate="G$1" x="518.16" y="261.62" rot="MR0">
+<attribute name="PARTNO" x="518.16" y="261.62" size="6.4516" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND44" gate="1" x="515.62" y="251.46" rot="MR0"/>
-<instance part="L2" gate="G$1" x="551.18" y="246.38">
-<attribute name="PARTNO" x="551.18" y="246.38" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="GND44" gate="1" x="518.16" y="251.46" rot="MR0"/>
 <instance part="C44" gate="G$1" x="533.4" y="246.38" rot="R90">
 <attribute name="PARTNO" x="533.4" y="246.38" size="6.4516" layer="96" rot="R90" display="off"/>
 </instance>
@@ -12079,7 +12104,9 @@ one place</text>
 <instance part="R26" gate="G$1" x="307.34" y="38.1" rot="R180">
 <attribute name="PARTNO" x="307.34" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="414.02" y="287.02"/>
+<instance part="D1" gate="G$1" x="414.02" y="287.02">
+<attribute name="PARTNO" x="414.02" y="287.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="LED3" gate="G$1" x="251.46" y="81.28" rot="R270">
 <attribute name="PARTNO" x="251.46" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
@@ -12157,6 +12184,7 @@ one place</text>
 <instance part="C21" gate="G$1" x="360.68" y="266.7">
 <attribute name="PARTNO" x="360.68" y="266.7" size="6.4516" layer="96" display="off"/>
 </instance>
+<instance part="L3" gate="G$1" x="551.18" y="246.38"/>
 </instances>
 <busses>
 </busses>
@@ -12391,7 +12419,7 @@ one place</text>
 <segment>
 <pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="515.62" y1="256.54" x2="515.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="256.54" x2="518.16" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C48" gate="G$1" pin="2"/>
@@ -12618,11 +12646,11 @@ one place</text>
 <segment>
 <pinref part="P+15" gate="1" pin="+5V"/>
 <wire x1="561.34" y1="269.24" x2="561.34" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="P$2"/>
 <wire x1="561.34" y1="246.38" x2="558.8" y2="246.38" width="0.1524" layer="91"/>
 <junction x="561.34" y="246.38"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="561.34" y1="246.38" x2="561.34" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
@@ -13522,8 +13550,8 @@ one place</text>
 <junction x="502.92" y="251.46"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="502.92" y1="266.7" x2="502.92" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="264.16" x2="515.62" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="266.7" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="264.16" x2="518.16" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="266.7" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
 <junction x="502.92" y="266.7"/>
 <wire x1="502.92" y1="251.46" x2="502.92" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="PVDD1"/>
@@ -13616,10 +13644,10 @@ one place</text>
 <pinref part="C44" gate="G$1" pin="2"/>
 <wire x1="541.02" y1="246.38" x2="538.48" y2="246.38" width="0.1524" layer="91"/>
 <junction x="541.02" y="246.38"/>
-<pinref part="L2" gate="G$1" pin="P$1"/>
 <wire x1="543.56" y1="246.38" x2="541.02" y2="246.38" width="0.1524" layer="91"/>
 <junction x="541.02" y="241.3"/>
 <pinref part="D2" gate="G$1" pin="K"/>
+<pinref part="L3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$22" class="0">
