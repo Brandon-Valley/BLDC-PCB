@@ -2811,13 +2811,13 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C41" library="rcl" package="C1206" value="10uf,50V" x="-5.3975" y="50.4825" rot="R180">
 <attribute name="PARTNO" value="C3216JB1H106K160AB" x="-5.3975" y="50.4825" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C43" library="FormE" package="K-55" value="15uf,100V" x="-28.575" y="0.635">
-<attribute name="MANUFACTURER_PART_NUMBER" value="KCM55WR72A156MH01K" x="-28.575" y="0.635" size="1.4224" layer="27" display="off"/>
-<attribute name="VENDOR" value="Murata" x="-28.575" y="0.635" size="1.4224" layer="27" display="off"/>
+<element name="C43" library="FormE" package="K-55" value="15uf,100V" x="-16.8275" y="53.34">
+<attribute name="MANUFACTURER_PART_NUMBER" value="KCM55WR72A156MH01K" x="-16.8275" y="53.34" size="1.4224" layer="27" display="off"/>
+<attribute name="VENDOR" value="Murata" x="-16.8275" y="53.34" size="1.4224" layer="27" display="off"/>
 </element>
-<element name="C51" library="FormE" package="K-55" value="15uf,100V" x="-36.5125" y="0.635">
-<attribute name="MANUFACTURER_PART_NUMBER" value="KCM55WR72A156MH01K" x="-36.5125" y="0.635" size="1.4224" layer="27" display="off"/>
-<attribute name="VENDOR" value="Murata" x="-36.5125" y="0.635" size="1.4224" layer="27" display="off"/>
+<element name="C51" library="FormE" package="K-55" value="15uf,100V" x="-33.02" y="36.195">
+<attribute name="MANUFACTURER_PART_NUMBER" value="KCM55WR72A156MH01K" x="-33.02" y="36.195" size="1.4224" layer="27" display="off"/>
+<attribute name="VENDOR" value="Murata" x="-33.02" y="36.195" size="1.4224" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3120,8 +3120,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-11.6175" y1="33.9725" x2="-11.6175" y2="40.3225" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.1425" y1="34.29" x2="-11.6175" y2="33.9725" width="0" layer="19" extent="1-1"/>
 <wire x1="1.5875" y1="43.4975" x2="-6.7975" y2="50.4825" width="0" layer="19" extent="1-16"/>
-<wire x1="-25.9842" y1="0.635" x2="3.4925" y2="9.5575" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.9217" y1="0.635" x2="-25.9842" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.2367" y1="53.34" x2="3.4925" y2="9.5575" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.4292" y1="36.195" x2="-14.2367" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U3" pad="3"/>
@@ -4128,8 +4128,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-14.4175" y1="40.3225" x2="-14.4175" y2="46.6725" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.4175" y1="33.9725" x2="-14.4175" y2="40.3225" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.9425" y1="34.29" x2="-14.4175" y2="33.9725" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.1658" y1="0.635" x2="-23.9425" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.1033" y1="0.635" x2="-31.1658" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.4183" y1="53.34" x2="-23.9425" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.6108" y1="36.195" x2="-19.4183" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="U4" pad="52"/>
