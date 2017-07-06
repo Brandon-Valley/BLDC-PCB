@@ -11119,10 +11119,10 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="22R">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
-<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="22R">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="DNP">
@@ -11144,7 +11144,7 @@ type 0309, grid 2.5 mm</description>
 <part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="39K">
 <attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
-<part name="C15" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
+<part name="C15" library="rcl" deviceset="C-US" device="C0805" value="100n">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -11487,6 +11487,9 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="C49" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
+<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11741,8 +11744,8 @@ one place</text>
 <instance part="C18" gate="G$1" x="350.52" y="266.7">
 <attribute name="PARTNO" x="350.52" y="266.7" size="6.4516" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="360.68" y="266.7">
-<attribute name="PARTNO" x="360.68" y="266.7" size="6.4516" layer="96" display="off"/>
+<instance part="C20" gate="G$1" x="314.96" y="292.1">
+<attribute name="PARTNO" x="314.96" y="292.1" size="6.4516" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="360.68" y="254"/>
 <instance part="+3V311" gate="G$1" x="332.74" y="276.86"/>
@@ -12147,6 +12150,9 @@ one place</text>
 </instance>
 <instance part="GND33" gate="1" x="401.32" y="266.7"/>
 <instance part="P+9" gate="1" x="401.32" y="297.18"/>
+<instance part="C49" gate="G$1" x="360.68" y="266.7">
+<attribute name="PARTNO" x="360.68" y="266.7" size="6.4516" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12190,11 +12196,8 @@ one place</text>
 <segment>
 <pinref part="U2" gate="A" pin="VSSA"/>
 <wire x1="330.2" y1="259.08" x2="350.52" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="259.08" x2="360.68" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="261.62" x2="360.68" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="259.08" x2="360.68" y2="256.54" width="0.1524" layer="91"/>
-<junction x="360.68" y="259.08"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="261.62" x2="350.52" y2="259.08" width="0.1524" layer="91"/>
 <junction x="350.52" y="259.08"/>
@@ -12206,6 +12209,9 @@ one place</text>
 <wire x1="347.98" y1="248.92" x2="350.52" y2="248.92" width="0.1524" layer="91"/>
 <junction x="350.52" y="248.92"/>
 <pinref part="GND30" gate="1" pin="GND"/>
+<pinref part="C49" gate="G$1" pin="2"/>
+<wire x1="360.68" y1="259.08" x2="360.68" y2="261.62" width="0.1524" layer="91"/>
+<junction x="360.68" y="259.08"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -12252,10 +12258,14 @@ one place</text>
 <junction x="304.8" y="284.48"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="287.02" x2="325.12" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="284.48" x2="304.8" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="284.48" x2="314.96" y2="284.48" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
+<wire x1="314.96" y1="284.48" x2="304.8" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="284.48" x2="325.12" y2="281.94" width="0.1524" layer="91"/>
 <junction x="325.12" y="284.48"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="287.02" x2="314.96" y2="284.48" width="0.1524" layer="91"/>
+<junction x="314.96" y="284.48"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="GND"/>
@@ -12680,8 +12690,12 @@ one place</text>
 <wire x1="304.8" y1="294.64" x2="304.8" y2="297.18" width="0.1524" layer="91"/>
 <junction x="304.8" y="297.18"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="297.18" x2="325.12" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="297.18" x2="314.96" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="297.18" x2="325.12" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="297.18" x2="325.12" y2="294.64" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="294.64" x2="314.96" y2="297.18" width="0.1524" layer="91"/>
+<junction x="314.96" y="297.18"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VDD_1"/>
@@ -12710,15 +12724,15 @@ one place</text>
 <pinref part="+3V311" gate="G$1" pin="+3V3"/>
 <wire x1="330.2" y1="261.62" x2="332.74" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="261.62" x2="332.74" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="271.78" x2="332.74" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="269.24" x2="360.68" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="271.78" x2="350.52" y2="271.78" width="0.1524" layer="91"/>
 <junction x="332.74" y="271.78"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="350.52" y1="271.78" x2="332.74" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="269.24" x2="350.52" y2="271.78" width="0.1524" layer="91"/>
 <junction x="350.52" y="271.78"/>
+<pinref part="C49" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="269.24" x2="360.68" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SPLIT/VIO"/>

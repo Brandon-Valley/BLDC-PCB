@@ -12327,11 +12327,11 @@ one place</text>
 </instance>
 <instance part="C43" gate="A" x="487.68" y="284.48" smashed="yes">
 <attribute name="NAME" x="488.95" y="288.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="471.17" y="283.21" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="476.25" y="280.67" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C51" gate="A" x="533.4" y="284.48" smashed="yes">
 <attribute name="NAME" x="534.67" y="288.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="516.89" y="283.21" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="521.97" y="280.67" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>

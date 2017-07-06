@@ -11616,7 +11616,7 @@ Resistors</text>
 <wire x1="20.32" y1="254" x2="20.32" y2="261.62" width="0.6096" layer="97"/>
 <text x="317.5" y="43.18" size="1.778" layer="97">Place near 
 big fets</text>
-<text x="497.84" y="88.9" size="1.778" layer="97">Big external cap - UVR1J222MHD</text>
+<text x="497.84" y="71.12" size="1.778" layer="97">Big external cap - UVR1J222MHD</text>
 <wire x1="129.54" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="97"/>
 <wire x1="139.7" y1="139.7" x2="139.7" y2="144.78" width="0.1524" layer="97"/>
 <wire x1="129.54" y1="139.7" x2="132.08" y2="142.24" width="0.1524" layer="97"/>
@@ -11684,6 +11684,9 @@ one place</text>
 <wire x1="342.9" y1="121.92" x2="342.9" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="342.9" y1="5.08" x2="287.02" y2="5.08" width="0.6096" layer="97"/>
 <wire x1="287.02" y1="5.08" x2="287.02" y2="121.92" width="0.6096" layer="97"/>
+<text x="497.84" y="68.58" size="1.778" layer="97">External fuse</text>
+<text x="497.84" y="76.2" size="2.54" layer="97">External Components:</text>
+<text x="497.84" y="66.04" size="1.778" layer="97">Proto-Board</text>
 </plain>
 <instances>
 <instance part="GND31" gate="1" x="370.84" y="15.24"/>

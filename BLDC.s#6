@@ -11181,7 +11181,7 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
+<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="100n">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
@@ -14368,21 +14368,20 @@ one place</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,-55.88,83.82,U2,VBAT,+3V3,,,"/>
-<approved hash="202,1,-55.88,27.94,U2,PD0_OSC_IN,,,,"/>
-<approved hash="104,1,-5.08,81.28,U2,VSSA,GND,,,"/>
-<approved hash="104,1,-5.08,83.82,U2,VDDA,+3V3,,,"/>
-<approved hash="104,1,-5.08,63.5,U2,VSS_4,GND,,,"/>
-<approved hash="104,1,-55.88,81.28,U2,VDD_4,+3V3,,,"/>
-<approved hash="104,1,-5.08,76.2,U2,VSS_1,N$37,,,"/>
-<approved hash="104,1,-55.88,73.66,U2,VDD_1,+3V3,,,"/>
-<approved hash="104,1,-5.08,73.66,U2,VSS_2,N$6,,,"/>
-<approved hash="104,1,-55.88,76.2,U2,VDD_2,+3V3,,,"/>
-<approved hash="104,1,-5.08,60.96,U2,VSS_,GND,,,"/>
-<approved hash="104,1,-55.88,78.74,U2,VDD_3,+3V3,,,"/>
-<approved hash="104,1,-170.18,-104.14,U1,VSS,GND,,,"/>
-<approved hash="104,1,-170.18,-106.68,U1,VDD,+5V,,,"/>
-<approved hash="113,1,-259.08,90.1277,JP1,,,,,"/>
+<approved hash="104,1,279.4,261.62,U2,VBAT,+3V3,,,"/>
+<approved hash="104,1,330.2,259.08,U2,VSSA,GND,,,"/>
+<approved hash="104,1,330.2,261.62,U2,VDDA,+3V3,,,"/>
+<approved hash="104,1,330.2,241.3,U2,VSS_4,GND,,,"/>
+<approved hash="104,1,279.4,259.08,U2,VDD_4,+3V3,,,"/>
+<approved hash="104,1,330.2,254,U2,VSS_1,N$37,,,"/>
+<approved hash="104,1,279.4,251.46,U2,VDD_1,+3V3,,,"/>
+<approved hash="104,1,330.2,251.46,U2,VSS_2,N$6,,,"/>
+<approved hash="104,1,279.4,254,U2,VDD_2,+3V3,,,"/>
+<approved hash="104,1,330.2,238.76,U2,VSS_,GND,,,"/>
+<approved hash="104,1,279.4,256.54,U2,VDD_3,+3V3,,,"/>
+<approved hash="104,1,236.22,25.4,U1,VSS,GND,,,"/>
+<approved hash="104,1,236.22,22.86,U1,VDD,+5V,,,"/>
+<approved hash="113,1,111.76,130.768,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

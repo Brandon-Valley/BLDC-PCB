@@ -11898,10 +11898,10 @@ one place</text>
 <attribute name="PARTNO" x="436.88" y="190.5" size="6.4516" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+13" gate="VCC" x="502.92" y="271.78"/>
-<instance part="C40" gate="G$1" x="515.62" y="261.62" rot="MR0">
-<attribute name="PARTNO" x="515.62" y="261.62" size="6.4516" layer="96" rot="MR0" display="off"/>
+<instance part="C40" gate="G$1" x="518.16" y="261.62" rot="MR0">
+<attribute name="PARTNO" x="518.16" y="261.62" size="6.4516" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND44" gate="1" x="515.62" y="251.46" rot="MR0"/>
+<instance part="GND44" gate="1" x="518.16" y="251.46" rot="MR0"/>
 <instance part="L2" gate="G$1" x="551.18" y="246.38">
 <attribute name="PARTNO" x="551.18" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
@@ -12391,7 +12391,7 @@ one place</text>
 <segment>
 <pinref part="C40" gate="G$1" pin="2"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="515.62" y1="256.54" x2="515.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="256.54" x2="518.16" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C48" gate="G$1" pin="2"/>
@@ -13522,8 +13522,8 @@ one place</text>
 <junction x="502.92" y="251.46"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="502.92" y1="266.7" x2="502.92" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="264.16" x2="515.62" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="266.7" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="264.16" x2="518.16" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="266.7" x2="502.92" y2="266.7" width="0.1524" layer="91"/>
 <junction x="502.92" y="266.7"/>
 <wire x1="502.92" y1="251.46" x2="502.92" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="PVDD1"/>
