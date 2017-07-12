@@ -2185,7 +2185,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="39.37" y="19.3675" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C20" library="rcl" package="C0805" value="4.7uF" x="32.385" y="40.9575" smashed="yes" rot="MR90">
-<attribute name="PARTNO" value="GRM21BR61E475KA12L" x="32.385" y="40.9575" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="GRM21BC81E475KA12L" x="32.385" y="40.9575" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="33.655" y="39.6875" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="29.845" y="39.6875" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -2195,7 +2195,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="39.37" y="14.2875" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C28" library="rcl" package="C0805" value="10uF" x="32.385" y="36.83" smashed="yes" rot="MR90">
-<attribute name="PARTNO" value="TMK212BBJ106KG-T" x="32.385" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="GRM21BR61E106KA73L" x="32.385" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="33.9725" y="35.8775" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="29.845" y="35.56" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -2413,12 +2413,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="37.465" y="80.9625" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R24" library="adafruit" package="R0805" value="1k" x="41.275" y="47.3075" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="41.275" y="47.3075" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="41.275" y="47.3075" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="47.117" y="47.879" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.037" y="49.5935" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="adafruit" package="R0805" value="2.2k" x="11.1125" y="12.7" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="11.1125" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="11.1125" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.684" y="8.4455" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="13.3985" y="11.938" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2433,12 +2433,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="33.9725" y="2.8575" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R8" library="adafruit" package="R0805" value="2.2k" x="16.51" y="12.7" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="16.51" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="16.51" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.494" y="10.9855" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="18.796" y="11.938" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="adafruit" package="R0805" value="2.2k" x="16.51" y="12.7" smashed="yes" rot="MR90">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="16.51" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="16.51" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="15.9385" y="7.1755" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="14.224" y="11.938" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -2448,7 +2448,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="6.477" y="35.941" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R42" library="adafruit" package="R0805" value="15K" x="6.6675" y="28.2575" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="RMCF0805FT15K0" x="6.6675" y="28.2575" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1502V" x="6.6675" y="28.2575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.239" y="22.733" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="8.9535" y="27.4955" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2458,7 +2458,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="7.1755" y="35.941" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R38" library="adafruit" package="R0805" value="3K3" x="9.2075" y="30.48" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="RMCF0805FT3K30" x="9.2075" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF3301V" x="9.2075" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="9.779" y="28.3845" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="11.4935" y="31.242" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -2468,12 +2468,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="15.0495" y="29.464" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R43" library="adafruit" package="R0805" value="1M" x="10.16" y="45.085" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="ERJ-6ENF1004V" x="10.16" y="45.085" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V" x="10.16" y="45.085" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="12.2555" y="45.974" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="10.922" y="42.799" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R23" library="adafruit" package="R0805" value="1k" x="42.2275" y="9.525" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="42.2275" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="42.2275" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="48.0695" y="10.0965" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.9895" y="11.811" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2483,7 +2483,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="30.607" y="52.324" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R40" library="adafruit" package="R0805" value="1k" x="28.8925" y="33.02" smashed="yes" rot="MR180">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="28.8925" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="28.8925" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23.368" y="33.5915" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="28.1305" y="35.306" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2508,7 +2508,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="31.369" y="44.2595" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R32" library="adafruit" package="R0805" value="2.2k" x="33.655" y="39.6875" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="33.655" y="39.6875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="33.655" y="39.6875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="34.2265" y="34.163" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="35.941" y="38.9255" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2518,7 +2518,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="33.274" y="44.2595" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R34" library="adafruit" package="R0805" value="2.2k" x="35.56" y="39.6875" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="35.56" y="39.6875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="35.56" y="39.6875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="36.1315" y="34.163" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="37.846" y="38.9255" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2533,7 +2533,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="21.209" y="9.3345" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R36" library="adafruit" package="R0805" value="2.2k" x="37.465" y="39.6875" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="37.465" y="39.6875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="37.465" y="39.6875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.9415" y="37.6555" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="39.751" y="38.9255" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2600,7 +2600,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="8.8265" y="11.938" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R29" library="adafruit" package="R0805" value="2.2k" x="44.1325" y="67.6275" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="RMCF0805FT2K20" x="44.1325" y="67.6275" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V" x="44.1325" y="67.6275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.7835" y="68.3895" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="41.8465" y="68.3895" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2676,42 +2676,42 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PARTNO" value="5988110107F" x="37.465" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R14" library="adafruit" package="R0805" value="1k" x="7.62" y="19.3675" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="7.62" y="19.3675" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="7.62" y="19.3675" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.382" y="20.3835" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.382" y="17.0815" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R15" library="adafruit" package="R0805" value="1k" x="7.62" y="17.145" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="7.62" y="17.145" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="7.62" y="17.145" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.382" y="18.161" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.382" y="14.859" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R16" library="adafruit" package="R0805" value="1k" x="7.62" y="14.9225" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="7.62" y="14.9225" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="7.62" y="14.9225" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.382" y="15.9385" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.382" y="12.6365" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R17" library="adafruit" package="R0805" value="1k" x="7.62" y="12.7" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="7.62" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="7.62" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.382" y="13.716" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.382" y="10.414" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R18" library="adafruit" package="R0805" value="1k" x="7.62" y="10.4775" smashed="yes" rot="MR0">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="7.62" y="10.4775" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="7.62" y="10.4775" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.382" y="11.4935" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.382" y="8.1915" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R19" library="adafruit" package="R0805" value="1k" x="38.1" y="6.35" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="38.1" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="38.1" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="39.624" y="11.8745" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="40.386" y="7.112" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R20" library="adafruit" package="R0805" value="1k" x="40.3225" y="6.35" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="40.3225" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="40.3225" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.529" y="11.8745" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="42.6085" y="7.112" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R21" library="adafruit" package="R0805" value="1k" x="42.545" y="6.35" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="42.545" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="42.545" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="43.434" y="11.8745" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="44.831" y="7.112" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -2731,12 +2731,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="36.195" y="46.6725" size="1.27" layer="27"/>
 </element>
 <element name="R22" library="adafruit" package="R0805" value="1k" x="41.275" y="49.2125" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="47.3075" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="47.3075" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="47.117" y="50.1015" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.037" y="51.4985" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R25" library="adafruit" package="R0805" value="1k" x="42.2275" y="7.3025" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="42.2275" y="0.3175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="42.2275" y="0.3175" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="48.0695" y="7.874" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.9895" y="9.5885" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2771,7 +2771,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="0.635" y="36.83" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R30" library="adafruit" package="R0805" value="1k" x="1.27" y="38.1" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="RMCF0805FT1K00" x="-6.985" y="44.45" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="-6.985" y="44.45" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="-0.0635" y="40.767" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="3.556" y="38.862" size="1.27" layer="28" rot="MR270"/>
 </element>

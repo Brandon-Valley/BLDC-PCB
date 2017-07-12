@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -11187,10 +11187,10 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="LM3671MF-3.3/NOPB"/>
 </part>
 <part name="C20" library="rcl" deviceset="C-US" device="C0805" value="4.7uF">
-<attribute name="PARTNO" value="GRM21BR61E475KA12L"/>
+<attribute name="PARTNO" value="GRM21BC81E475KA12L"/>
 </part>
 <part name="C28" library="rcl" deviceset="C-US" device="C0805" value="10uF">
-<attribute name="PARTNO" value="TMK212BBJ106KG-T"/>
+<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="FormE" deviceset="L0805" device="" value="2.2uH">
@@ -11200,7 +11200,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
@@ -11255,14 +11255,14 @@ type 0309, grid 2.5 mm</description>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="FormE" deviceset="LED" device="CHIP-LED0805" value="GREEN">
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
@@ -11288,7 +11288,7 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="39K">
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
@@ -11301,7 +11301,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
@@ -11312,7 +11312,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
@@ -11323,7 +11323,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
@@ -11345,7 +11345,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="08051A121FAT2A"/>
 </part>
 <part name="R42" library="adafruit" deviceset="R-US_" device="R0805" value="15K">
-<attribute name="PARTNO" value="RMCF0805FT15K0"/>
+<attribute name="PARTNO" value="ERJ-6ENF1502V"/>
 </part>
 <part name="C31" library="rcl" deviceset="C-US" device="C0805" value="6.8n">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
@@ -11355,7 +11355,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1802V"/>
 </part>
 <part name="R38" library="adafruit" deviceset="R-US_" device="R0805" value="3K3">
-<attribute name="PARTNO" value="RMCF0805FT3K30"/>
+<attribute name="PARTNO" value="ERJ-6ENF3301V"/>
 </part>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="R39" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
@@ -11392,7 +11392,7 @@ type 0309, grid 2.5 mm</description>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
-<attribute name="PARTNO" value="ERJ-6ENF1004V"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V"/>
 </part>
 <part name="C37" library="rcl" deviceset="C-US" device="C0805" value="220n">
 <attribute name="PARTNO" value="GRM219R71C224KA01D"/>
@@ -11427,21 +11427,21 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="R33" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R34" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="R35" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R36" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -11537,28 +11537,28 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="5988110107F"/>
 </part>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="FormE" deviceset="JST-1X7-MICRO" device="" value=""/>
@@ -11572,11 +11572,11 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="LED4" library="FormE" deviceset="5988110107F" device="" value="RED">
@@ -11605,7 +11605,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
@@ -11660,11 +11660,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="449.58" y1="55.88" x2="350.52" y2="55.88" width="0.6096" layer="95"/>
 <text x="289.56" y="276.86" size="1.778" layer="97">Bypass caps- 
 place near VDD pins</text>
-<text x="185.42" y="43.18" size="6.4516" layer="95">Can Transceiver</text>
-<wire x1="175.26" y1="53.34" x2="175.26" y2="0" width="0.6096" layer="95"/>
-<wire x1="175.26" y1="0" x2="279.4" y2="0" width="0.6096" layer="95"/>
-<wire x1="279.4" y1="0" x2="279.4" y2="53.34" width="0.6096" layer="95"/>
-<wire x1="279.4" y1="53.34" x2="175.26" y2="53.34" width="0.6096" layer="95"/>
+<text x="175.26" y="43.18" size="6.4516" layer="95">Can Transceiver</text>
+<wire x1="165.1" y1="53.34" x2="165.1" y2="0" width="0.6096" layer="95"/>
+<wire x1="165.1" y1="0" x2="269.24" y2="0" width="0.6096" layer="95"/>
+<wire x1="269.24" y1="0" x2="269.24" y2="53.34" width="0.6096" layer="95"/>
+<wire x1="269.24" y1="53.34" x2="165.1" y2="53.34" width="0.6096" layer="95"/>
 <text x="0" y="325.12" size="6.4516" layer="97">BLDC-PCB</text>
 <text x="132.08" y="147.32" size="1.778" layer="97">Mount if used 
 as USB Host</text>
@@ -11907,24 +11907,24 @@ one place</text>
 </instance>
 <instance part="GND30" gate="1" x="360.68" y="254"/>
 <instance part="+3V311" gate="G$1" x="332.74" y="276.86"/>
-<instance part="R5" gate="G$1" x="193.04" y="22.86" rot="MR90">
-<attribute name="PARTNO" x="193.04" y="22.86" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="R5" gate="G$1" x="182.88" y="22.86" rot="MR90">
+<attribute name="PARTNO" x="182.88" y="22.86" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="248.92" y="15.24" rot="MR0">
-<attribute name="PARTNO" x="248.92" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="C6" gate="G$1" x="238.76" y="15.24" rot="MR0">
+<attribute name="PARTNO" x="238.76" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="213.36" y="15.24" rot="MR0">
-<attribute name="PARTNO" x="213.36" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="C1" gate="G$1" x="203.2" y="15.24" rot="MR0">
+<attribute name="PARTNO" x="203.2" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="GND20" gate="1" x="248.92" y="5.08" rot="MR0"/>
-<instance part="GND10" gate="1" x="213.36" y="5.08" rot="MR0"/>
-<instance part="GND21" gate="1" x="254" y="5.08" rot="MR0"/>
-<instance part="U1" gate="G$1" x="231.14" y="25.4" rot="MR0">
-<attribute name="PARTNO" x="231.14" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="GND20" gate="1" x="238.76" y="5.08" rot="MR0"/>
+<instance part="GND10" gate="1" x="203.2" y="5.08" rot="MR0"/>
+<instance part="GND21" gate="1" x="243.84" y="5.08" rot="MR0"/>
+<instance part="U1" gate="G$1" x="220.98" y="25.4" rot="MR0">
+<attribute name="PARTNO" x="220.98" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="P+7" gate="1" x="248.92" y="35.56" rot="MR0"/>
-<instance part="+3V37" gate="G$1" x="213.36" y="35.56" rot="MR0"/>
-<instance part="GND9" gate="1" x="203.2" y="5.08" rot="MR0"/>
+<instance part="P+7" gate="1" x="238.76" y="35.56" rot="MR0"/>
+<instance part="+3V37" gate="G$1" x="203.2" y="35.56" rot="MR0"/>
+<instance part="GND9" gate="1" x="193.04" y="5.08" rot="MR0"/>
 <instance part="R24" gate="G$1" x="238.76" y="81.28">
 <attribute name="PARTNO" x="238.76" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -12402,24 +12402,24 @@ one place</text>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="7.62" x2="213.36" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="7.62" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="7.62" x2="248.92" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="7.62" x2="238.76" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="254" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="254" y1="7.62" x2="254" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="25.4" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="7.62" x2="243.84" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="STBY"/>
-<wire x1="215.9" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="27.94" x2="193.04" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="203.2" y1="27.94" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="27.94" x2="193.04" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -12780,10 +12780,10 @@ one place</text>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="17.78" x2="248.92" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="22.86" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="22.86" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
-<junction x="248.92" y="22.86"/>
+<wire x1="238.76" y1="17.78" x2="238.76" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="22.86" x2="236.22" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="22.86" x2="238.76" y2="33.02" width="0.1524" layer="91"/>
+<junction x="238.76" y="22.86"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
@@ -12922,12 +12922,12 @@ one place</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SPLIT/VIO"/>
-<wire x1="215.9" y1="20.32" x2="213.36" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="17.78" x2="213.36" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="17.78" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
-<wire x1="213.36" y1="33.02" x2="213.36" y2="20.32" width="0.1524" layer="91"/>
-<junction x="213.36" y="20.32"/>
+<wire x1="203.2" y1="33.02" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
+<junction x="203.2" y="20.32"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -13009,15 +13009,15 @@ one place</text>
 </net>
 <net name="CAR_CAN_P" class="1">
 <segment>
-<wire x1="177.8" y1="30.48" x2="193.04" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="30.48" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="25.4" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="25.4" x2="198.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="25.4" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CANH"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="27.94" x2="193.04" y2="30.48" width="0.1524" layer="91"/>
-<junction x="193.04" y="30.48"/>
-<label x="177.8" y="30.48" size="1.778" layer="95"/>
+<wire x1="182.88" y1="27.94" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
+<junction x="182.88" y="30.48"/>
+<label x="167.64" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
@@ -13028,14 +13028,14 @@ one place</text>
 <net name="CAR_CAN_N" class="1">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="17.78" x2="193.04" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="15.24" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="15.24" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
-<junction x="193.04" y="15.24"/>
-<wire x1="198.12" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="17.78" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="15.24" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="15.24" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="15.24" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
+<junction x="182.88" y="15.24"/>
+<wire x1="187.96" y1="22.86" x2="205.74" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CANL"/>
-<label x="177.8" y="15.24" size="1.778" layer="95"/>
+<label x="167.64" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
@@ -13045,11 +13045,11 @@ one place</text>
 </net>
 <net name="CAR_CAN_RX" class="0">
 <segment>
-<wire x1="246.38" y1="20.32" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="20.32" x2="246.38" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="RXD"/>
-<wire x1="256.54" y1="20.32" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
-<label x="259.08" y="30.48" size="1.778" layer="95"/>
-<wire x1="276.86" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="20.32" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
+<label x="248.92" y="30.48" size="1.778" layer="95"/>
+<wire x1="266.7" y1="30.48" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB8"/>
@@ -13060,8 +13060,8 @@ one place</text>
 <net name="CAR_CAN_TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD"/>
-<label x="259.08" y="27.94" size="1.778" layer="95"/>
-<wire x1="276.86" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
+<label x="248.92" y="27.94" size="1.778" layer="95"/>
+<wire x1="266.7" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB9"/>

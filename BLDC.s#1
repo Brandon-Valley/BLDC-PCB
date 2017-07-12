@@ -11187,10 +11187,10 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="LM3671MF-3.3/NOPB"/>
 </part>
 <part name="C20" library="rcl" deviceset="C-US" device="C0805" value="4.7uF">
-<attribute name="PARTNO" value="GRM21BR61E475KA12L"/>
+<attribute name="PARTNO" value="GRM21BC81E475KA12L"/>
 </part>
 <part name="C28" library="rcl" deviceset="C-US" device="C0805" value="10uF">
-<attribute name="PARTNO" value="TMK212BBJ106KG-T"/>
+<attribute name="PARTNO" value="GRM21BR61E106KA73L"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="FormE" deviceset="L0805" device="" value="2.2uH">
@@ -11200,7 +11200,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R40" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="+3V315" library="supply1" deviceset="+3V3" device=""/>
@@ -11255,14 +11255,14 @@ type 0309, grid 2.5 mm</description>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="FormE" deviceset="LED" device="CHIP-LED0805" value="GREEN">
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="C-US" device="C0805" value="2.2uf">
@@ -11288,7 +11288,7 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="39K">
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
@@ -11301,7 +11301,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
@@ -11312,7 +11312,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
@@ -11323,7 +11323,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1002V"/>
 </part>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="4n7">
 <attribute name="PARTNO" value="GRM2165C1H472FA01D"/>
@@ -11345,7 +11345,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="08051A121FAT2A"/>
 </part>
 <part name="R42" library="adafruit" deviceset="R-US_" device="R0805" value="15K">
-<attribute name="PARTNO" value="RMCF0805FT15K0"/>
+<attribute name="PARTNO" value="ERJ-6ENF1502V"/>
 </part>
 <part name="C31" library="rcl" deviceset="C-US" device="C0805" value="6.8n">
 <attribute name="PARTNO" value="C0805C682K5RACTU"/>
@@ -11355,7 +11355,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF1802V"/>
 </part>
 <part name="R38" library="adafruit" deviceset="R-US_" device="R0805" value="3K3">
-<attribute name="PARTNO" value="RMCF0805FT3K30"/>
+<attribute name="PARTNO" value="ERJ-6ENF3301V"/>
 </part>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="R39" library="adafruit" deviceset="R-US_" device="R0805" value="10k">
@@ -11392,7 +11392,7 @@ type 0309, grid 2.5 mm</description>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="R43" library="adafruit" deviceset="R-US_" device="R0805" value="1M">
-<attribute name="PARTNO" value="ERJ-6ENF1004V"/>
+<attribute name="PARTNO" value="ERJ-3EKF1004V"/>
 </part>
 <part name="C37" library="rcl" deviceset="C-US" device="C0805" value="220n">
 <attribute name="PARTNO" value="GRM219R71C224KA01D"/>
@@ -11427,21 +11427,21 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="R33" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R34" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="R35" library="adafruit" deviceset="R-US_" device="R0805" value="39k">
 <attribute name="PARTNO" value="ERJ-6ENF3902V"/>
 </part>
 <part name="R36" library="adafruit" deviceset="R-US_" device="R0805" value="2.2k">
-<attribute name="PARTNO" value="RMCF0805FT2K20"/>
+<attribute name="PARTNO" value="ERJ-6ENF2201V"/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -11537,28 +11537,28 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="5988110107F"/>
 </part>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="FormE" deviceset="JST-1X7-MICRO" device="" value=""/>
@@ -11572,11 +11572,11 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="LED4" library="FormE" deviceset="5988110107F" device="" value="RED">
@@ -11605,7 +11605,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="PARTNO" value="598-8170-107F"/>
 </part>
 <part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="1k">
-<attribute name="PARTNO" value="RMCF0805FT1K00"/>
+<attribute name="PARTNO" value="ERJ-6ENF1001V"/>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
