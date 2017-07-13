@@ -14565,8 +14565,8 @@ one place</text>
 <approved hash="104,1,279.4,254,U2,VDD_2,+3V3,,,"/>
 <approved hash="104,1,330.2,238.76,U2,VSS_,GND,,,"/>
 <approved hash="104,1,279.4,256.54,U2,VDD_3,+3V3,,,"/>
-<approved hash="104,1,236.22,25.4,U1,VSS,GND,,,"/>
-<approved hash="104,1,236.22,22.86,U1,VDD,+5V,,,"/>
+<approved hash="104,1,246.38,25.4,U1,VSS,GND,,,"/>
+<approved hash="104,1,246.38,22.86,U1,VDD,+5V,,,"/>
 <approved hash="113,1,111.76,130.768,JP1,,,,,"/>
 </errors>
 </schematic>
