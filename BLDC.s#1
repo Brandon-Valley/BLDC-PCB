@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11848,9 +11848,6 @@ one place</text>
 <text x="497.84" y="68.58" size="1.778" layer="97">External fuse</text>
 <text x="497.84" y="76.2" size="2.54" layer="97">External Components:</text>
 <text x="497.84" y="66.04" size="1.778" layer="97">Proto-Board</text>
-<text x="228.6" y="330.2" size="6.4516" layer="97">WRONG PACKAGE!!!!!!!!!!!!!</text>
-<wire x1="256.54" y1="248.92" x2="254" y2="248.92" width="0.1524" layer="97"/>
-<wire x1="254" y1="248.92" x2="254" y2="325.12" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="GND31" gate="1" x="370.84" y="15.24"/>
